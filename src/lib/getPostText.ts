@@ -79,8 +79,7 @@ export default async function getPostText()
 
 		if (contentString.includes("@DarbyAllin") || contentString.includes("@JonMoxley") || contentString.includes("RT ") || contentString.includes("Retweet ") || contentString.includes("retweet ") || contentString.includes("RETWEET "))
 		{
-			contentString = contentString.replace("@DarbyAllin","Darby Allin");
-			contentString = contentString.replace("@JonMoxley","Jon Moxley");
+			contentString = contentString.replace("@DarbyAllin","Darby Allin") || ("@JonMoxley","Jon Moxley");
 		}
 		
 		if (objJSON[i]["card"] != null)

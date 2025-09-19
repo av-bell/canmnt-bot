@@ -80,19 +80,24 @@ export default async function getPostText()
 		if (contentString.includes("@DarbyAllin") || contentString.includes("@JonMoxley") || contentString.includes("@MercedesVarnado") 
 			|| contentString.includes("@SussexCoChicken") || contentString.includes("@The305MVP")  || contentString.includes("@KingRicochet")  
 			|| contentString.includes("@The_MJF")  || contentString.includes("@RatedRCope") || contentString.includes("@Walking_Weapon")  
-			||  contentString.includes("@_ReyHechicero")  ||  contentString.includes("@Jet2Flyy")  ||  contentString.includes("@SpeedballBailey")  
-			||  contentString.includes("@YoungBucks")  ||  contentString.includes("@BrodyXKing")  ||    contentString.includes("@Brodyxking")  
-			||  contentString.includes("@BandidoWrestler") || contentString.includes("@bandidowrestler") || contentString.includes("@CallMeKrisStat") 
+			|| contentString.includes("@_ReyHechicero")  ||  contentString.includes("@Jet2Flyy")  ||  contentString.includes("@SpeedballBailey")  
+			|| contentString.includes("@YoungBucks")  ||  contentString.includes("@BrodyXKing")  ||    contentString.includes("@Brodyxking")  
+			|| contentString.includes("@BandidoWrestler") || contentString.includes("@bandidowrestler") || contentString.includes("@CallMeKrisStat") 
 			|| contentString.includes("@callmekrisstat") ||  contentString.includes("@Toxic_Thekla")  ||  contentString.includes("@toxic_thekla")  
 			|| contentString.includes("@jmehytr")  ||  contentString.includes("@KyleFletcherPro")  || contentString.includes("@kylefletcherpro")  
-			||  contentString.includes("@TheDonCallis")  ||  contentString.includes("@TheCaZXL")  ||  contentString.includes("@WillowWrestles")  
-			||  contentString.includes("@willowwrestles")  ||  contentString.includes("@MinaShirakawa")  ||  contentString.includes("@ReneePaquette")  
-			||  contentString.includes("@HarleyCameron_")  ||  contentString.includes("@harleycameron_")  ||  contentString.includes("@amisylle")  
-			||  contentString.includes("@Amisylle")  || contentString.includes("@TheJuliaHart")  ||  contentString.includes("@thejuliahart")  
-			||  contentString.includes("@SkyeByee")  || contentString.includes("@skyebyee")  ||  contentString.includes("@MeganBayne")  
-			||  contentString.includes("@meganbayne")  ||  contentString.includes("@ThePenelopeFord")  ||  contentString.includes("@thepenelopeford")  
-			||  contentString.includes("@SheltyB803")  || contentString.includes("@FightBobby")  || contentString.includes("@fightbobby") 
-			|| contentString.includes("@thekaun")  || contentString.includes("@TheKaun")  || contentString.includes("@The305MVP"))
+			|| contentString.includes("@TheDonCallis")  ||  contentString.includes("@TheCaZXL")  ||  contentString.includes("@WillowWrestles")  
+			|| contentString.includes("@willowwrestles")  ||  contentString.includes("@MinaShirakawa")  ||  contentString.includes("@ReneePaquette")  
+			|| contentString.includes("@HarleyCameron_")  ||  contentString.includes("@harleycameron_")  ||  contentString.includes("@amisylle")  
+			|| contentString.includes("@Amisylle")  || contentString.includes("@TheJuliaHart")  ||  contentString.includes("@thejuliahart")  
+			|| contentString.includes("@SkyeByee")  || contentString.includes("@skyebyee")  ||  contentString.includes("@MeganBayne")  
+			|| contentString.includes("@meganbayne")  ||  contentString.includes("@ThePenelopeFord")  ||  contentString.includes("@thepenelopeford")  
+			|| contentString.includes("@SheltyB803")  || contentString.includes("@FightBobby")  || contentString.includes("@fightbobby") 
+			|| contentString.includes("@thekaun")  || contentString.includes("@TheKaun")  || contentString.includes("@The305MVP") 
+			|| contentString.includes("@takesoup")  ||  contentString.includes("@RainmakerXOkada")  ||  contentString.includes("@rainmakerXokada")  
+			|| contentString.includes("@MascaraDoradMD")  ||  contentString.includes("@BryanDanielson")  ||  contentString.includes("@bryandanielson")  
+			|| contentString.includes("@CashWheelerFTR")  ||  contentString.includes("@DaxFTR")  || contentString.includes("@Christian4Peeps")  
+			|| contentString.includes("@SamoaJoe")  || contentString.includes("@samoajoe")  || contentString.includes("@TrueWillieHobbs")  
+			|| contentString.includes("@K_Shibata2022"))
 		{
 			contentString = contentString.replace("@DarbyAllin","Darby Allin")
 			contentString = contentString.replace("@JonMoxley","Jon Moxley");
@@ -143,6 +148,19 @@ export default async function getPostText()
 			contentString = contentString.replace("@FightBobby","Bobby Lashley");
 			contentString = contentString.replace("@thekaun","Bishop Kaun");
 			contentString = contentString.replace("@TheKaun","Bishop Kaun");
+			contentString = contentString.replace("@takesoup","Konosuke Takeshita");
+			contentString = contentString.replace("@RainmakerXOkada","Kazuchika Okada");
+			contentString = contentString.replace("@rainmakerXokada","Kazuchika Okada");
+			contentString = contentString.replace("@MascaraDoradMD","Máscara Dorada");
+			contentString = contentString.replace("@BryanDanielson","Bryan Danielson");
+			contentString = contentString.replace("@bryandanielson","Bryan Danielson");
+			contentString = contentString.replace("@Christian4Peeps","Christian Cage");
+			contentString = contentString.replace("@CashWheelerFTR","Cash Wheeler");
+			contentString = contentString.replace("@DaxFTR","Dax Harwood");
+			contentString = contentString.replace("@SamoaJoe","Samoa Joe");
+			contentString = contentString.replace("@samoajoe","Samoa Joe");
+			contentString = contentString.replace("@TrueWillieHobbs","Powerhouse Hobbs");
+			contentString = contentString.replace("@K_Shibata2022","Shibata");
 			
 		}
 		

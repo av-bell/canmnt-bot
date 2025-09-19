@@ -96,8 +96,8 @@ export default async function getPostText()
 			contentString = contentString.replace("@Brodyxking","Brody King");
 			contentString = contentString.replace("@BandidoWrestler","Bandido");
 			contentString = contentString.replace("@bandidowrestler","Bandido");
-			contentString = contentString.replace("@CallMeKrisStat ","Kris Statlander");
-			contentString = contentString.replace("@callmekrisstat ","Kris Statlander");
+			contentString = contentString.replace("@CallMeKrisStat","Kris Statlander");
+			contentString = contentString.replace("@callmekrisstat","Kris Statlander");
 			contentString = contentString.replace("@Toxic_Thekla","Thekla");
 			contentString = contentString.replace("@toxic_thekla","Thekla");
 			contentString = contentString.replace("@jmehytr","Jamie Hayter");

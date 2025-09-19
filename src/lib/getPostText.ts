@@ -88,7 +88,11 @@ export default async function getPostText()
 			||  contentString.includes("@TheDonCallis")  ||  contentString.includes("@TheCaZXL")  ||  contentString.includes("@WillowWrestles")  
 			||  contentString.includes("@willowwrestles")  ||  contentString.includes("@MinaShirakawa")  ||  contentString.includes("@ReneePaquette")  
 			||  contentString.includes("@HarleyCameron_")  ||  contentString.includes("@harleycameron_")  ||  contentString.includes("@amisylle")  
-			||  contentString.includes("@Amisylle")  ||  contentString.includes("@The305MVP"))
+			||  contentString.includes("@Amisylle")  || contentString.includes("@TheJuliaHart")  ||  contentString.includes("@thejuliahart")  
+			||  contentString.includes("@SkyeByee")  || contentString.includes("@skyebyee")  ||  contentString.includes("@MeganBayne")  
+			||  contentString.includes("@meganbayne")  ||  contentString.includes("@ThePenelopeFord")  ||  contentString.includes("@thepenelopeford")  
+			||  contentString.includes("@SheltyB803")  || contentString.includes("@FightBobby")  || contentString.includes("@fightbobby") 
+			|| contentString.includes("@thekaun")  || contentString.includes("@TheKaun")  || contentString.includes("@The305MVP"))
 		{
 			contentString = contentString.replace("@DarbyAllin","Darby Allin")
 			contentString = contentString.replace("@JonMoxley","Jon Moxley");

@@ -77,7 +77,7 @@ export default async function getPostText()
 		contentString = contentString.slice(1,-1); // Remove the quotation marks.
 		contentString = contentString.replace(twitterReg, "").replace(waltRuffReg, "notwaltruff.bsky.social").replace(sportsBotsReg, "").replace(logoReg, "").replace(quoteReg, `"`).replace(andReg, "&").replace(pReg, "\n\n").replace(brReg, "\n").replace(tagReg, ""); //Use the ", &, <p>, and <br> regexes to apply appropriate formatting. Then use the general regex to remove the HTML formatting from the mastodon post. 
 
-		if (contentString.includes("@DarbyAllin") || contentString.includes("@JonMoxley") || contentString.includes("@MercedesVarnado") || contentString.includes("@SussexCoChicken") || contentString.includes("@The305MVP")  || contentString.includes("@KingRicochet")  || contentString.includes("@The_MJF")  || contentString.includes("@RatedRCope") || contentString.includes("@Walking_Weapon")  ||  contentString.includes("@_ReyHechicero")  ||  contentString.includes("@Jet2Flyy")  ||  contentString.includes("@SpeedballBailey")  ||  contentString.includes("@YoungBucks")  ||  contentString.includes("@BrodyXKing")  ||    contentString.includes("@Brodyxking")  ||  contentString.includes("@BandidoWrestler") || contentString.includes("@bandidowrestler") || contentString.includes("@CallMeKrisStat") ||  contentString.includes("@Toxic_Thekla")  ||  contentString.includes("@jmehytr")  ||  contentString.includes("@KyleFletcherPro")  ||  contentString.includes("@TheDonCallis")  ||  contentString.includes("@TheCaZXL")  ||  contentString.includes("@WillowWrestles")  ||  contentString.includes("@MinaShirakawa")  ||  contentString.includes("@The305MVP"))
+		if (contentString.includes("@DarbyAllin") || contentString.includes("@JonMoxley") || contentString.includes("@MercedesVarnado") || contentString.includes("@SussexCoChicken") || contentString.includes("@The305MVP")  || contentString.includes("@KingRicochet")  || contentString.includes("@The_MJF")  || contentString.includes("@RatedRCope") || contentString.includes("@Walking_Weapon")  ||  contentString.includes("@_ReyHechicero")  ||  contentString.includes("@Jet2Flyy")  ||  contentString.includes("@SpeedballBailey")  ||  contentString.includes("@YoungBucks")  ||  contentString.includes("@BrodyXKing")  ||    contentString.includes("@Brodyxking")  ||  contentString.includes("@BandidoWrestler") || contentString.includes("@bandidowrestler") || contentString.includes("@CallMeKrisStat") || contentString.includes("@callmekrisstat") ||  contentString.includes("@Toxic_Thekla")  ||  contentString.includes("@toxic_thekla")  || contentString.includes("@jmehytr")  ||  contentString.includes("@KyleFletcherPro")  || contentString.includes("@kylefletcherpro")  ||  contentString.includes("@TheDonCallis")  ||  contentString.includes("@TheCaZXL")  ||  contentString.includes("@WillowWrestles")  ||  contentString.includes("@willowwrestles")  ||  contentString.includes("@MinaShirakawa")  ||  contentString.includes("@The305MVP"))
 		{
 			contentString = contentString.replace("@DarbyAllin","Darby Allin")
 			contentString = contentString.replace("@JonMoxley","Jon Moxley");
@@ -97,13 +97,17 @@ export default async function getPostText()
 			contentString = contentString.replace("@BandidoWrestler","Bandido");
 			contentString = contentString.replace("@bandidowrestler","Bandido");
 			contentString = contentString.replace("@CallMeKrisStat ","Kris Statlander");
+			contentString = contentString.replace("@callmekrisstat ","Kris Statlander");
 			contentString = contentString.replace("@Toxic_Thekla","Thekla");
+			contentString = contentString.replace("@toxic_thekla","Thekla");
 			contentString = contentString.replace("@jmehytr","Jamie Hayter");
 			contentString = contentString.replace("@KyleFletcherPro","Kyle Fletcher");
+			contentString = contentString.replace("@kylefletcherpro","Kyle Fletcher");
 			contentString = contentString.replace("@TheDonCallis","Don Callis");
 			contentString = contentString.replace("@TheCaZXL","Big Bill");
 			contentString = contentString.replace("@BandidoWrestler","Bandido");
 			contentString = contentString.replace("@WillowWrestles","Willow Nightingale");
+			contentString = contentString.replace("@willowwrestles","Willow Nightingale");
 			contentString = contentString.replace("@MinaShirakawa","Mina Shirakawa");
 		}
 		

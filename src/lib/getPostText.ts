@@ -93,11 +93,16 @@ export default async function getPostText()
 			|| contentString.includes("@meganbayne")  ||  contentString.includes("@ThePenelopeFord")  ||  contentString.includes("@thepenelopeford")  
 			|| contentString.includes("@SheltyB803")  || contentString.includes("@FightBobby")  || contentString.includes("@fightbobby") 
 			|| contentString.includes("@thekaun")  || contentString.includes("@TheKaun")  || contentString.includes("@The305MVP") 
-			|| contentString.includes("@takesoup")  || contentString.includes("@Takesoup")  || contentString.includes("@RainmakerXOkada")  ||  contentString.includes("@rainmakerXokada")  
-			|| contentString.includes("@MascaraDoradMD")  ||  contentString.includes("@BryanDanielson")  ||  contentString.includes("@bryandanielson")  
-			|| contentString.includes("@CashWheelerFTR")  ||  contentString.includes("@DaxFTR")  || contentString.includes("@Christian4Peeps")  
-			|| contentString.includes("@SamoaJoe")  || contentString.includes("@samoajoe")  || contentString.includes("@TrueWillieHobbs")  
-			|| contentString.includes("@K_Shibata2022"))
+			|| contentString.includes("@takesoup")  || contentString.includes("@Takesoup")  || contentString.includes("@RainmakerXOkada")  
+			|| contentString.includes("@rainmakerXokada")  || contentString.includes("@MascaraDoradMD")  ||  contentString.includes("@BryanDanielson")  
+			|| contentString.includes("@bryandanielson")  || contentString.includes("@CashWheelerFTR")  ||  contentString.includes("@DaxFTR")  
+			|| contentString.includes("@Christian4Peeps")  || contentString.includes("@SamoaJoe")  || contentString.includes("@samoajoe")  
+			|| contentString.includes("@TrueWillieHobbs")  || contentString.includes("@K_Shibata2022") || contentString.includes("@HBOMax")  
+			|| contentString.includes("@PrimeVideo")  ||  contentString.includes("@Triller_TV")  || contentString.includes("@ppv_com")  
+			|| contentString.includes("@AntnyHenry")  ||  contentString.includes("@antnyhenry")  ||  contentString.includes("@RealJDDrake")  
+			|| contentString.includes("@TheKipSabian")  || contentString.includes("@BeastMortos")  || contentString.includes("@TonyKhan")  
+			|| contentString.includes("@RoderickStrong")  || contentString.includes("@roderickstrong")  || contentString.includes("@TBSNetwork")  
+			|| contentString.includes("@SportsonMax"))
 		{
 			contentString = contentString.replace("@DarbyAllin","Darby Allin")
 			contentString = contentString.replace("@JonMoxley","Jon Moxley");
@@ -163,6 +168,21 @@ export default async function getPostText()
 			contentString = contentString.replace("@samoajoe","Samoa Joe");
 			contentString = contentString.replace("@TrueWillieHobbs","Powerhouse Hobbs");
 			contentString = contentString.replace("@K_Shibata2022","Shibata");
+			contentString = contentString.replace("@HBOMax","HBO Max");
+			contentString = contentString.replace("@PrimeVideo","Prime Video");
+			contentString = contentString.replace("@Triller_TV","Triller");
+			contentString = contentString.replace("@ppv_com","PPV.com");
+			contentString = contentString.replace("@AntnyHenry","Anthony Henry");
+			contentString = contentString.replace("@antnyhenry","Anthony Henry");
+			contentString = contentString.replace("@RealJDDrake","JD Drake");
+			contentString = contentString.replace("@TheKipSabian","Kip Sabian");
+			contentString = contentString.replace("@BeastMortos","Beast Mortos");
+			contentString = contentString.replace("@TonyKhan","Tony Khan");
+			contentString = contentString.replace("@RoderickStrong","Roderick Strong");
+			contentString = contentString.replace("@roderickstrong","Roderick Strong");
+			contentString = contentString.replace("@TBSNetwork","TBS");
+			contentString = contentString.replace("@SportsonMax","HBO Max");
+
 			
 		}
 		

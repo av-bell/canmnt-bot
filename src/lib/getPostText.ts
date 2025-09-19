@@ -93,7 +93,7 @@ export default async function getPostText()
 			|| contentString.includes("@meganbayne")  ||  contentString.includes("@ThePenelopeFord")  ||  contentString.includes("@thepenelopeford")  
 			|| contentString.includes("@SheltyB803")  || contentString.includes("@FightBobby")  || contentString.includes("@fightbobby") 
 			|| contentString.includes("@thekaun")  || contentString.includes("@TheKaun")  || contentString.includes("@The305MVP") 
-			|| contentString.includes("@takesoup")  ||  contentString.includes("@RainmakerXOkada")  ||  contentString.includes("@rainmakerXokada")  
+			|| contentString.includes("@takesoup")  || contentString.includes("@Takesoup")  || contentString.includes("@RainmakerXOkada")  ||  contentString.includes("@rainmakerXokada")  
 			|| contentString.includes("@MascaraDoradMD")  ||  contentString.includes("@BryanDanielson")  ||  contentString.includes("@bryandanielson")  
 			|| contentString.includes("@CashWheelerFTR")  ||  contentString.includes("@DaxFTR")  || contentString.includes("@Christian4Peeps")  
 			|| contentString.includes("@SamoaJoe")  || contentString.includes("@samoajoe")  || contentString.includes("@TrueWillieHobbs")  
@@ -150,6 +150,7 @@ export default async function getPostText()
 			contentString = contentString.replace("@thekaun","Bishop Kaun");
 			contentString = contentString.replace("@TheKaun","Bishop Kaun");
 			contentString = contentString.replace("@takesoup","Konosuke Takeshita");
+			contentString = contentString.replace("@Takesoup","Konosuke Takeshita");
 			contentString = contentString.replace("@RainmakerXOkada","Kazuchika Okada");
 			contentString = contentString.replace("@rainmakerXokada","Kazuchika Okada");
 			contentString = contentString.replace("@MascaraDoradMD","Máscara Dorada");

@@ -81,7 +81,7 @@ export default async function getPostText()
 			|| contentString.includes("@SussexCoChicken") || contentString.includes("@The305MVP")  || contentString.includes("@KingRicochet")  
 			|| contentString.includes("@The_MJF")  || contentString.includes("@RatedRCope") || contentString.includes("@Walking_Weapon")  
 			|| contentString.includes("@_ReyHechicero")  ||  contentString.includes("@Jet2Flyy")  ||  contentString.includes("@SpeedballBailey")  
-			|| contentString.includes("@YoungBucks")  ||  contentString.includes("@BrodyXKing")  ||    contentString.includes("@Brodyxking")  
+			|| contentString.includes("@YoungBucks") || contentString.includes("@youngbucks") ||  contentString.includes("@BrodyXKing")  ||    contentString.includes("@Brodyxking")  
 			|| contentString.includes("@BandidoWrestler") || contentString.includes("@bandidowrestler") || contentString.includes("@CallMeKrisStat") 
 			|| contentString.includes("@callmekrisstat") ||  contentString.includes("@Toxic_Thekla")  ||  contentString.includes("@toxic_thekla")  
 			|| contentString.includes("@jmehytr")  ||  contentString.includes("@KyleFletcherPro")  || contentString.includes("@kylefletcherpro")  
@@ -112,6 +112,7 @@ export default async function getPostText()
 			contentString = contentString.replace("@Jet2Flyy","Kevin Knight");
 			contentString = contentString.replace("@SpeedballBailey","Speedball Mike Bailey");
 			contentString = contentString.replace("@YoungBucks","Young Bucks");
+			contentString = contentString.replace("@youngbucks","Young Bucks");
 			contentString = contentString.replace("@BrodyXKing","Brody King");
 			contentString = contentString.replace("@Brodyxking","Brody King");
 			contentString = contentString.replace("@BandidoWrestler","Bandido");

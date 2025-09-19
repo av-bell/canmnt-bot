@@ -77,7 +77,7 @@ export default async function getPostText()
 		contentString = contentString.slice(1,-1); // Remove the quotation marks.
 		contentString = contentString.replace(twitterReg, "").replace(waltRuffReg, "notwaltruff.bsky.social").replace(sportsBotsReg, "").replace(logoReg, "").replace(quoteReg, `"`).replace(andReg, "&").replace(pReg, "\n\n").replace(brReg, "\n").replace(tagReg, ""); //Use the ", &, <p>, and <br> regexes to apply appropriate formatting. Then use the general regex to remove the HTML formatting from the mastodon post. 
 
-		if (contentString.includes("@DarbyAllin") || contentString.includes("@JonMoxley") || contentString.includes("@MercedesVarnado") || contentString.includes("@SussexCoChicken") || contentString.includes("@The305MVP")  || contentString.includes("@KingRicochet")  || contentString.includes("@The_MJF")  || contentString.includes("@RatedRCope") || contentString.includes("RETWEET "))
+		if (contentString.includes("@DarbyAllin") || contentString.includes("@JonMoxley") || contentString.includes("@MercedesVarnado") || contentString.includes("@SussexCoChicken") || contentString.includes("@The305MVP")  || contentString.includes("@KingRicochet")  || contentString.includes("@The_MJF")  || contentString.includes("@RatedRCope") || contentString.includes("@Walking_Weapon")  ||  contentString.includes("@_ReyHechicero")  ||  contentString.includes("@Jet2Flyy")  ||  contentString.includes("@SpeedballBailey")  ||  contentString.includes("@YoungBucks")  ||  contentString.includes("@BrodyXKing")  ||  contentString.includes("@BandidoWrestler"))
 		{
 			contentString = contentString.replace("@DarbyAllin","Darby Allin")
 			contentString = contentString.replace("@JonMoxley","Jon Moxley");
@@ -87,6 +87,13 @@ export default async function getPostText()
 			contentString = contentString.replace("@KingRicochet","Ricochet");
 			contentString = contentString.replace("@The_MJF","MJF");
 			contentString = contentString.replace("@RatedRCope","Adam Copeland");
+			contentString = contentString.replace("@Walking_Weapon","Josh Alexander");
+			contentString = contentString.replace("@_ReyHechicero","Hechicero");
+			contentString = contentString.replace("@Jet2Flyy","Kevin Knight");
+			contentString = contentString.replace("@SpeedballBailey","Speedball Mike Bailey");
+			contentString = contentString.replace("@YoungBucks","Young Bucks");
+			contentString = contentString.replace("@BrodyXKing","Brody King");
+			contentString = contentString.replace("@BandidoWrestler","Bandido");
 		}
 		
 		if (objJSON[i]["card"] != null)

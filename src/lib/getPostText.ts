@@ -103,13 +103,16 @@ export default async function getPostText()
 			|| contentString.includes("@jmehytr")  
 			|| contentString.includes("@KingRicochet")  
 			|| contentString.includes("@KyleFletcherPro")  
-			|| contentString.includes("@kylefletcherpro")  
+			|| contentString.includes("@kylefletcherpro")
+			|| contentString.includes(".@KyleFletcherPro")
 			|| contentString.includes("@K_Shibata2022") 
+			|| contentString.includes("@Lucha_Angel1") 
 			|| contentString.includes("@MercedesVarnado") 
 			|| contentString.includes("@MinaShirakawa")  
 			|| contentString.includes("@MeganBayne")  
 			|| contentString.includes("@meganbayne")  
-			|| contentString.includes("@MascaraDoradMD")  
+			|| contentString.includes("@MascaraDoradMD") 
+			|| contentString.includes("@PlatinumMax") 
 			|| contentString.includes("@PrimeVideo")  
 			|| contentString.includes("@ppv_com")  
 			|| contentString.includes("@RainmakerXOkada")  
@@ -182,13 +185,17 @@ export default async function getPostText()
 			contentString = contentString.replace("@jmehytr","Jamie Hayter");
 			contentString = contentString.replace("@KingRicochet","Ricochet");
 			contentString = contentString.replace("@KyleFletcherPro","Kyle Fletcher");
+			contentString = contentString.replace(".@KyleFletcherPro","Kyle Fletcher");
 			contentString = contentString.replace("@kylefletcherpro","Kyle Fletcher");
+			contentString = contentString.replace(".@kylefletcherpro","Kyle Fletcher");
 			contentString = contentString.replace("@K_Shibata2022","Shibata");
+			contentString = contentString.replace("@Lucha_Angel1","Dante Martin");
 			contentString = contentString.replace("@MercedesVarnado","Mercedes Moné");
 			contentString = contentString.replace("@MinaShirakawa","Mina Shirakawa");
 			contentString = contentString.replace("@MeganBayne","Megan Bayne");
 			contentString = contentString.replace("@meganbayne","Megan Bayne");
 			contentString = contentString.replace("@MascaraDoradMD","Máscara Dorada");
+			contentString = contentString.replace("@PlatinumMax","Max Caster");
 			contentString = contentString.replace("@PrimeVideo","Prime Video");
 			contentString = contentString.replace("@ppv_com","PPV.com");
 			contentString = contentString.replace("@RatedRCope","Adam Copeland");

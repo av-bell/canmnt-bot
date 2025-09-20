@@ -107,6 +107,7 @@ export default async function getPostText()
 			|| contentString.includes("@HarleyCameron_")  
 			|| contentString.includes("@harleycameron_")  
  			|| contentString.includes("@HBOMax")  
+			|| contentString.includes("@IAmJericho")  
 			|| contentString.includes("@itsjerrylynn")  
 			|| contentString.includes("@JonMoxley") 
 			|| contentString.includes("@Jet2Flyy")  
@@ -186,7 +187,6 @@ export default async function getPostText()
 			contentString = contentString.replace("@AntnyHenry","Anthony Henry");
 			contentString = contentString.replace("@antnyhenry","Anthony Henry");
 			contentString = contentString.replace("@AthenaPalmer_FG","Athena");
-			
 			contentString = contentString.replace("@BandidoWrestler","Bandido");
 			contentString = contentString.replace("@bandidowrestler","Bandido");
 			contentString = contentString.replace("@BeastMortos","Beast Mortos");
@@ -206,10 +206,10 @@ export default async function getPostText()
 			contentString = contentString.replace("@FightBobby","Bobby Lashley");
 			contentString = contentString.replace("@HailWindsor","Alex Windsor");
 			contentString = contentString.replace("@hailwindsor","Alex Windsor");
-			
 			contentString = contentString.replace("@HarleyCameron_","Harley Cameron");
 			contentString = contentString.replace("@harleycameron_","Harley Cameron");
 			contentString = contentString.replace("@HBOMax","HBO Max");
+			contentString = contentString.replace("@IAmJericho","Chris Jericho");
 			contentString = contentString.replace("@itsjerrylynn","Jerry Lynn");
 			contentString = contentString.replace("@JonMoxley","Jon Moxley");
 			contentString = contentString.replace("@Jet2Flyy","Kevin Knight");

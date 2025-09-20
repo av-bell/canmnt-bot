@@ -141,6 +141,7 @@ export default async function getPostText()
 			|| contentString.includes("@ThePenelopeFord")  
 			|| contentString.includes("@thepenelopeford")  
 			|| contentString.includes("@TheKipSabian")  
+			|| contentString.includes("@ToaLiona") 
 			|| contentString.includes("@Toxic_Thekla")  
 			|| contentString.includes("@toxic_thekla")  
 			|| contentString.includes("@TonyKhan")  
@@ -206,24 +207,26 @@ export default async function getPostText()
 			contentString = contentString.replace("@SheltyB803","Shelton Benjamin");
 			contentString = contentString.replace("@Sheltyb803","Shelton Benjamin");
 			contentString = contentString.replace("@SportsonMax","HBO Max");
-			contentString = contentString.replace("@The305MVP","MVP");
-			contentString = contentString.replace("@The_MJF","MJF");
-			contentString = contentString.replace("@Toxic_Thekla","Thekla");
-			contentString = contentString.replace("@toxic_thekla","Thekla");
+			contentString = contentString.replace("@TBSNetwork","TBS");
 			contentString = contentString.replace("@takesoup","Konosuke Takeshita");
 			contentString = contentString.replace("@Takesoup","Konosuke Takeshita");
-			contentString = contentString.replace("@TBSNetwork","TBS");
+			contentString = contentString.replace("@The305MVP","MVP");
+			contentString = contentString.replace("@The_MJF","MJF");
 			contentString = contentString.replace("@TheDonCallis","Don Callis");
 			contentString = contentString.replace("@TheCaZXL","Big Bill");
 			contentString = contentString.replace("@TheJuliaHart","Julia Hart");
 			contentString = contentString.replace("@thejuliahart","Julia Hart");
+			contentString = contentString.replace("@TheKipSabian","Kip Sabian");
 			contentString = contentString.replace("@ThePenelopeFord","Penelope Ford");
 			contentString = contentString.replace("@thepenelopeford","Penelope Ford");
 			contentString = contentString.replace("@thekaun","Bishop Kaun");
 			contentString = contentString.replace("@TheKaun","Bishop Kaun");
+			contentString = contentString.replace("@Toxic_Thekla","Thekla");
+			contentString = contentString.replace("@toxic_thekla","Thekla");
+			contentString = contentString.replace("@ToaLiona","Toa Liona");
+			contentString = contentString.replace("@toaliona","Toa Liona");
 			contentString = contentString.replace("@TrueWillieHobbs","Powerhouse Hobbs");
 			contentString = contentString.replace("@Triller_TV","Triller");
-			contentString = contentString.replace("@TheKipSabian","Kip Sabian");
 			contentString = contentString.replace("@TonyKhan","Tony Khan");
 			contentString = contentString.replace("@Walking_Weapon","Josh Alexander");
 			contentString = contentString.replace("@WillowWrestles","Willow Nightingale");

@@ -86,7 +86,7 @@ export default async function getPostText()
 			|| contentString.includes("@annajay___")
 			|| contentString.includes("@AnthonyOgogo")
 			|| contentString.includes("@AntnyHenry")  
-			|| contentString.includes("@antnyhenry")  
+			|| contentString.includes("@Antnyhenry")  
 			|| contentString.includes("@ajbefumo") 
 			|| contentString.includes("@Amisylle") 
 			|| contentString.includes("@AthenaPalmer_FG")
@@ -147,7 +147,7 @@ export default async function getPostText()
 			|| contentString.includes("@SheltyB803")  
 			|| contentString.includes("@SpeedballBailey")  
 			|| contentString.includes("@SkyeByee")  
-			|| contentString.includes("@skyebyee")  
+			|| contentString.includes("@Skyebyee")  
 			|| contentString.includes("@SussexCoChicken") 
 			|| contentString.includes("@takesoup")  
 			|| contentString.includes("@Takesoup")  
@@ -166,7 +166,7 @@ export default async function getPostText()
 			|| contentString.includes("@thekaun")  
 			|| contentString.includes("@TheKaun")  
 			|| contentString.includes("@ThePenelopeFord")  
-			|| contentString.includes("@thepenelopeford")  
+			|| contentString.includes("@thePenelopeFord")  
 			|| contentString.includes("@TheKipSabian")  
 			|| contentString.includes("@ToaLiona") 
 			|| contentString.includes("@TopFlight612") 
@@ -198,7 +198,7 @@ export default async function getPostText()
 			contentString = contentString.replace("@annajay___","Anna Jay");
 			contentString = contentString.replace("@AnthonyOgogo","Anthony Ogogo");
 			contentString = contentString.replace("@AntnyHenry","Anthony Henry");
-			contentString = contentString.replace("@antnyhenry","Anthony Henry");
+			contentString = contentString.replace("@Antnyhenry","Anthony Henry");
 			contentString = contentString.replace("@AthenaPalmer_FG","Athena");
 			contentString = contentString.replace("@ARealFoxx","AR Fox");
 			contentString = contentString.replace("@refaubrey","Aubrey Edwards");
@@ -257,10 +257,11 @@ export default async function getPostText()
 			contentString = contentString.replace("@SamoaJoe","Samoa Joe")
 			contentString = contentString.replace("@SpeedballBailey","Speedball Mike Bailey");
 			contentString = contentString.replace("@SkyeByee","Skye Blue");
-			contentString = contentString.replace("@skyebyee","Skye Blue");
+			contentString = contentString.replace("@Skyebyee","Skye Blue");
 			contentString = contentString.replace("@SheltyB803","Shelton Benjamin");
 			contentString = contentString.replace("@Sheltyb803","Shelton Benjamin");
 			contentString = contentString.replace("@SportsonMax","HBO Max");
+			contentString = contentString.replace("@SussexCoChicken","Mark Briscoe");
 			contentString = contentString.replace("@TBSNetwork","TBS");
 			contentString = contentString.replace("@The_Ace_Austin","Ace Austin");
 			contentString = contentString.replace("@the_ace_austin","Ace Austin");
@@ -276,7 +277,7 @@ export default async function getPostText()
 			contentString = contentString.replace("@thejuliahart","Julia Hart");
 			contentString = contentString.replace("@TheKipSabian","Kip Sabian");
 			contentString = contentString.replace("@ThePenelopeFord","Penelope Ford");
-			contentString = contentString.replace("@thepenelopeford","Penelope Ford");
+			contentString = contentString.replace("@thePenelopeFord","Penelope Ford");
 			contentString = contentString.replace("@thekaun","Bishop Kaun");
 			contentString = contentString.replace("@TheKaun","Bishop Kaun");
 			contentString = contentString.replace("@TopFlight612","Top Flight");

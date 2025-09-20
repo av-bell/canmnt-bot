@@ -78,6 +78,10 @@ export default async function getPostText()
 		contentString = contentString.replace(twitterReg, "").replace(waltRuffReg, "notwaltruff.bsky.social").replace(sportsBotsReg, "").replace(logoReg, "").replace(quoteReg, `"`).replace(andReg, "&").replace(pReg, "\n\n").replace(brReg, "\n").replace(tagReg, ""); //Use the ", &, <p>, and <br> regexes to apply appropriate formatting. Then use the general regex to remove the HTML formatting from the mastodon post. 
 
 		if (contentString.includes("@aaron_solo_")
+			|| contentString.includes("@ActionAndretti")
+			|| contentString.includes("@actionandretti")
+			|| contentString.includes("@AdamColePro")
+			|| contentString.includes("@adamcolepro")
 			|| contentString.includes("@AntnyHenry")  
 			|| contentString.includes("@antnyhenry")  
 			|| contentString.includes("@Amisylle") 
@@ -170,6 +174,10 @@ export default async function getPostText()
 			|| contentString.includes("@_ReyHechicero"))
 		{
 			contentString = contentString.replace("@aaron_solo_","Aarom Solo");
+			contentString = contentString.replace("@ActionAndretti","Action Andretti");
+			contentString = contentString.replace("@actionandretti","Action Andretti");
+			contentString = contentString.replace("@AdamColePro","Adam Cole");
+			contentString = contentString.replace("@adamcolepro","Adam Cole");
 			contentString = contentString.replace("@Amisylle","Queen Aminata");
 			contentString = contentString.replace("@amisylle","Queen Aminata");
 			contentString = contentString.replace("@AntnyHenry","Anthony Henry");

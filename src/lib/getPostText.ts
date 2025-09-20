@@ -184,7 +184,63 @@ export default async function getPostText()
 			|| contentString.includes("@willowwrestles")  
 			|| contentString.includes("@YoungBucks") 
 			|| contentString.includes("@youngbucks") 
-			|| contentString.includes("@_ReyHechicero"))
+			|| contentString.includes("@_ReyHechicero")
+		    || contentString.includes("@RealBillyGunn")
+			|| contentString.includes("@_BlakeChristian")
+			|| contentString.includes("@BranCutler")
+			|| contentString.includes("@briancagegmsi")
+			|| contentString.includes("@bountykeith")
+			|| contentString.includes("@dabryceisright")
+			|| contentString.includes("@SNM_Buddy")
+			|| contentString.includes("@carliebravo")
+			|| contentString.includes("@facdaniels")
+			|| contentString.includes("@SexyChuckieT")
+			|| contentString.includes("@ClaudioCSRO")
+			|| contentString.includes("@coltengunn")
+			|| contentString.includes("@theDALTONcastle")
+			|| contentString.includes("@DariusMartin612")
+			|| contentString.includes("@DeonnaPurrazzo")
+			|| contentString.includes("@DiamanteLAX")
+			|| contentString.includes("@realbrittbaker")
+			|| contentString.includes("@DRALISTICO_LFI")
+			|| contentString.includes("@dustinrhodes")
+			|| contentString.includes("@EmiSakura_gtmv")
+			|| contentString.includes("@EvilUno")
+			|| contentString.includes("@ShutUpExcalibur")
+			|| contentString.includes("@shidahikaru")
+			|| contentString.includes("@AEWHologram")
+			|| contentString.includes("@730hook")
+			|| contentString.includes("@ianriccaboni")
+			|| contentString.includes("@boy_myth_legend")
+			|| contentString.includes("@TheLethalJay")
+			|| contentString.includes("@jaywhitenz")
+			|| contentString.includes("@RealJeffJarrett")
+			|| contentString.includes("@JRsBBQ")
+			|| contentString.includes("@KennyOmegamanX")
+			|| contentString.includes("@KomandercrMX")
+			|| contentString.includes("@ibushi_kota")
+			|| contentString.includes("@KORcombat")
+			|| contentString.includes("@LanceHoyt")
+			|| contentString.includes("@RasselinDoc")
+			|| contentString.includes("@MarinaShafir")
+			|| contentString.includes("@dunkzilladavis")
+			|| contentString.includes("@theDaddyMagic")
+			|| contentString.includes("@McGuinnessNigel")
+			|| contentString.includes("@orangecassidy")
+			|| contentString.includes("@bastardpac")
+			|| contentString.includes("@PrinceKingNana")
+			|| contentString.includes("@RJCity1")
+			|| contentString.includes("@realrubysoho")
+			|| contentString.includes("@sammyguevara")
+			|| contentString.includes("@Shane216Taylor")
+			|| contentString.includes("@swerveconfident")
+			|| contentString.includes("@ThunderRosa22")
+			|| contentString.includes("@tonyschiavone24")
+			|| contentString.includes("@Trentylocks")
+			|| contentString.includes("@TruthMagnum")
+			|| contentString.includes("@turbofloyd_")
+			|| contentString.includes("@WheelerYuta")
+			|| contentString.includes("Happy Birthday! @DariusMartin612"))
 		{
 			contentString = contentString.replace("@aaron_solo_","Aaron Solo");
 			contentString = contentString.replace("@ActionAndretti","Action Andretti");
@@ -298,6 +354,55 @@ export default async function getPostText()
 			contentString = contentString.replace("@YoungBucks","Young Bucks");
 			contentString = contentString.replace("@youngbucks","Young Bucks");
 			contentString = contentString.replace("@_ReyHechicero","Hechicero");
+			contentString = contentString.replace("@SNM_Buddy","Buddy Matthews");
+			contentString = contentString.replace("@carliebravo","Carlie Bravo");
+			contentString = contentString.replace("@facdaniels","Christopher Daniels");
+			contentString = contentString.replace("@SexyChuckieT","Chuck Taylor");
+			contentString = contentString.replace("@ClaudioCSRO","Claudio");
+			contentString = contentString.replace("@coltengunn","Colten Gunn");
+			contentString = contentString.replace("@theDALTONcastle","Dalton Castle");
+			contentString = contentString.replace("@DariusMartin612","Darius Martin");
+			contentString = contentString.replace("@DiamanteLAX","Diamante");
+			contentString = contentString.replace("@realbrittbaker","Britt Baker");
+			contentString = contentString.replace("@Dralístico","DRALISTICO_LFI");
+			contentString = contentString.replace("@dustinrhodes","Dustin Rhodes");
+			contentString = contentString.replace("@EmiSakura_gtmv","Emi Sakura");
+			contentString = contentString.replace("@EvilUno","Evil Uno");
+			contentString = contentString.replace("@ShutUpExcalibur","Excalibur");
+			contentString = contentString.replace("@AEWHologram","Hologram");
+			contentString = contentString.replace("@730hook","HOOK");
+			contentString = contentString.replace("@ianriccaboni","Ian Riccaboni");
+			contentString = contentString.replace("@boy_myth_legend","Jack Perry");
+			contentString = contentString.replace("@TheLethalJay","Jay Lethal");
+			contentString = contentString.replace("@jaywhitenz","Jay White");
+			contentString = contentString.replace("@RealJeffJarrett","Jeff Jarrett");
+			contentString = contentString.replace("@JRsBBQ","Jim Ross");
+			contentString = contentString.replace("@KennyOmegamanX","Kenny Omega");
+			contentString = contentString.replace("@KomandercrMX","Komander");
+			contentString = contentString.replace("@ibushi_kota","Kota Ibushi");
+			contentString = contentString.replace("@KORcombat","Kyle O'Reilly");
+			contentString = contentString.replace("@LanceHoyt","Lance Archer");
+			contentString = contentString.replace("@RasselinDoc","Luther");
+			contentString = contentString.replace("@MarinaShafir","Marina Shafir");
+			contentString = contentString.replace("@dunkzilladavis","Mark Davis");
+			contentString = contentString.replace("@theDaddyMagic","Matt Menard");
+			contentString = contentString.replace("@McGuinnessNigel","Nigel McGuinness");
+			contentString = contentString.replace("@orangecassidy","Orange Cassidy");
+			contentString = contentString.replace("@bastardpac","PAC");
+			contentString = contentString.replace("@PrinceKingNana","Prince Nana");
+			contentString = contentString.replace("@RJCity1","RJ City");
+			contentString = contentString.replace("@realrubysoho","Ruby Soho");
+			contentString = contentString.replace("@sammyguevara","Sammy Guevara");
+			contentString = contentString.replace("@swerveconfident","Swerve Strickland");
+			contentString = contentString.replace("@ThunderRosa22","Thunder Rosa");
+			contentString = contentString.replace("@tonyschiavone24","Tony Schiavone");
+			contentString = contentString.replace("@Trentylocks","Trent Beretta");
+			contentString = contentString.replace("@TruthMagnum","Truth Magnum");
+			contentString = contentString.replace("@turbofloyd_","Turbo Floyd");
+			contentString = contentString.replace("@bountykeith","Bryan");
+			contentString = contentString.replace("@WheelerYuta","Wheeler Yuta");
+			contentString = contentString.replace("Happy Birthday! @DariusMartin612","Happy Birthday Darius Martin!");
+
 			
 		}
 		

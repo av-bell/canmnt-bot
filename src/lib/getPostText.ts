@@ -77,7 +77,8 @@ export default async function getPostText()
 		contentString = contentString.slice(1,-1); // Remove the quotation marks.
 		contentString = contentString.replace(twitterReg, "").replace(waltRuffReg, "notwaltruff.bsky.social").replace(sportsBotsReg, "").replace(logoReg, "").replace(quoteReg, `"`).replace(andReg, "&").replace(pReg, "\n\n").replace(brReg, "\n").replace(tagReg, ""); //Use the ", &, <p>, and <br> regexes to apply appropriate formatting. Then use the general regex to remove the HTML formatting from the mastodon post. 
 
-		if (contentString.includes("@AntnyHenry")  
+		if (contentString.includes("@aaron_solo_")
+			|| contentString.includes("@AntnyHenry")  
 			|| contentString.includes("@antnyhenry")  
 			|| contentString.includes("@Amisylle") 
 			|| contentString.includes("@BandidoWrestler") 
@@ -135,7 +136,9 @@ export default async function getPostText()
 			|| contentString.includes("@SussexCoChicken") 
 			|| contentString.includes("@takesoup")  
 			|| contentString.includes("@Takesoup")  
-			|| contentString.includes("@TBSNetwork")  
+			|| contentString.includes("@TBSNetwork") 
+			|| contentString.includes("@The_Ace_Austin")
+			|| contentString.includes("@the_ace_austin")
 			|| contentString.includes("@TheCaZXL")  
 			|| contentString.includes("@TheDonCallis")  
 			|| contentString.includes("@The305MVP")  
@@ -166,6 +169,7 @@ export default async function getPostText()
 			|| contentString.includes("@youngbucks") 
 			|| contentString.includes("@_ReyHechicero"))
 		{
+			contentString = contentString.replace("@aaron_solo_","Aarom Solo");
 			contentString = contentString.replace("@Amisylle","Queen Aminata");
 			contentString = contentString.replace("@amisylle","Queen Aminata");
 			contentString = contentString.replace("@AntnyHenry","Anthony Henry");
@@ -217,9 +221,8 @@ export default async function getPostText()
 			contentString = contentString.replace("@RealJDDrake","JD Drake");
 			contentString = contentString.replace("@RoderickStrong","Roderick Strong");
 			contentString = contentString.replace("@roderickstrong","Roderick Strong");
-			contentString = contentString.replace("@SamoaJoe","Samoa Joe");
-			contentString = contentString.replace("@samoajoe","Samoa Joe");
-			contentString = contentString.replace("@SussexCoChicken","Mark Briscoe");
+			contentString = contentString.replace("@SamoaJoe","Samoa Joe")
+				@The_Ace_Austin Briscoe");
 			contentString = contentString.replace("@SpeedballBailey","Speedball Mike Bailey");
 			contentString = contentString.replace("@SkyeByee","Skye Blue");
 			contentString = contentString.replace("@skyebyee","Skye Blue");
@@ -227,6 +230,8 @@ export default async function getPostText()
 			contentString = contentString.replace("@Sheltyb803","Shelton Benjamin");
 			contentString = contentString.replace("@SportsonMax","HBO Max");
 			contentString = contentString.replace("@TBSNetwork","TBS");
+			contentString = contentString.replace("@The_Ace_Austin","Ace Austin");
+			contentString = contentString.replace("@the_ace_austin","Ace Austin");
 			contentString = contentString.replace("@takesoup","Konosuke Takeshita");
 			contentString = contentString.replace("@Takesoup","Konosuke Takeshita");
 			contentString = contentString.replace("@The305MVP","MVP");

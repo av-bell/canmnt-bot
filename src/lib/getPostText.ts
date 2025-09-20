@@ -238,7 +238,6 @@ export default async function getPostText()
 			contentString = contentString.replace("@RoderickStrong","Roderick Strong");
 			contentString = contentString.replace("@roderickstrong","Roderick Strong");
 			contentString = contentString.replace("@SamoaJoe","Samoa Joe")
-				@The_Ace_Austin Briscoe");
 			contentString = contentString.replace("@SpeedballBailey","Speedball Mike Bailey");
 			contentString = contentString.replace("@SkyeByee","Skye Blue");
 			contentString = contentString.replace("@skyebyee","Skye Blue");
@@ -269,7 +268,6 @@ export default async function getPostText()
 			contentString = contentString.replace(".@Toxic_Thekla","Thekla");
 			contentString = contentString.replace(".@toxic_thekla","Thekla");
 			contentString = contentString.replace("@TOXIC_THEKLA","THEKLA");
-			 
 			contentString = contentString.replace("@ToaLiona","Toa Liona");
 			contentString = contentString.replace("@toaliona","Toa Liona");
 			contentString = contentString.replace("@TrueWillieHobbs","Powerhouse Hobbs");
@@ -281,7 +279,6 @@ export default async function getPostText()
 			contentString = contentString.replace("@YoungBucks","Young Bucks");
 			contentString = contentString.replace("@youngbucks","Young Bucks");
 			contentString = contentString.replace("@_ReyHechicero","Hechicero");
-
 			
 		}
 		

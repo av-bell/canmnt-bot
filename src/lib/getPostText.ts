@@ -94,6 +94,7 @@ export default async function getPostText()
 			|| contentString.includes("@BandidoWrestler") 
 			|| contentString.includes("@bandidowrestler") 
 			|| contentString.includes("@BeastMortos") 
+			|| contentString.includes("@ajbefumo") 
 			|| contentString.includes("@Bowens_Official") 
 			|| contentString.includes("@BryanDanielson")  
 			|| contentString.includes("@bryandanielson") 
@@ -152,6 +153,7 @@ export default async function getPostText()
 			|| contentString.includes("@TBSNetwork") 
 			|| contentString.includes("@The_Ace_Austin")
 			|| contentString.includes("@the_ace_austin")
+			|| contentString.includes("@theaustingunn")
 			|| contentString.includes("@TheAngeloParker")
 			|| contentString.includes("@TheCaZXL")  
 			|| contentString.includes("@TheDonCallis")  
@@ -202,6 +204,7 @@ export default async function getPostText()
 			contentString = contentString.replace("@BandidoWrestler","Bandido");
 			contentString = contentString.replace("@bandidowrestler","Bandido");
 			contentString = contentString.replace("@BeastMortos","Beast Mortos");
+			contentString = contentString.replace("@ajbefumo","Big Boom AJ");
 			contentString = contentString.replace("@Bowens_Official","Anthony Bowens");
 			contentString = contentString.replace("@BryanDanielson","Bryan Danielson");
 			contentString = contentString.replace("@bryandanielson","Bryan Danielson");
@@ -262,6 +265,7 @@ export default async function getPostText()
 			contentString = contentString.replace("@takesoup","Konosuke Takeshita");
 			contentString = contentString.replace("@Takesoup","Konosuke Takeshita");
 			contentString = contentString.replace("@The305MVP","MVP");
+			contentString = contentString.replace("@theaustingunn","Austin Gunn");
 			contentString = contentString.replace("@The_MJF","MJF");
 			contentString = contentString.replace("@thenickwayne","Nick Wayne");
 			contentString = contentString.replace("@TheDonCallis","Don Callis");

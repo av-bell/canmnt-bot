@@ -98,6 +98,7 @@ export default async function getPostText()
 			|| contentString.includes("@HarleyCameron_")  
 			|| contentString.includes("@harleycameron_")  
  			|| contentString.includes("@HBOMax")  
+			|| contentString.includes("@itsjerrylynn")  
 			|| contentString.includes("@JonMoxley") 
 			|| contentString.includes("@Jet2Flyy")  
 			|| contentString.includes("@jmehytr")  
@@ -180,6 +181,7 @@ export default async function getPostText()
 			contentString = contentString.replace("@HarleyCameron_","Harley Cameron");
 			contentString = contentString.replace("@harleycameron_","Harley Cameron");
 			contentString = contentString.replace("@HBOMax","HBO Max");
+			contentString = contentString.replace("@itsjerrylynn","Jerry Lynn");
 			contentString = contentString.replace("@JonMoxley","Jon Moxley");
 			contentString = contentString.replace("@Jet2Flyy","Kevin Knight");
 			contentString = contentString.replace("@jmehytr","Jamie Hayter");

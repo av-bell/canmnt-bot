@@ -186,7 +186,7 @@ export default async function getPostText()
 			|| contentString.includes("@youngbucks") 
 			|| contentString.includes("@_ReyHechicero"))
 		{
-			contentString = contentString.replace("@aaron_solo_","Aarom Solo");
+			contentString = contentString.replace("@aaron_solo_","Aaron Solo");
 			contentString = contentString.replace("@ActionAndretti","Action Andretti");
 			contentString = contentString.replace("@actionandretti","Action Andretti");
 			contentString = contentString.replace("@AdamColePro","Adam Cole");

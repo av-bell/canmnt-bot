@@ -401,7 +401,7 @@ export default async function getPostText()
 			contentString = contentString.replace("@turbofloyd_","Turbo Floyd");
 			contentString = contentString.replace("@bountykeith","Bryan");
 			contentString = contentString.replace("@WheelerYuta","Wheeler Yuta");
-			contentString = contentString.replace("Happy Birthday! @DariusMartin612","Happy Birthday Darius Martin!");
+			contentString = contentString.replace("Happy Birthday! Darius Martin","Happy Birthday Darius Martin!");
 
 			
 		}

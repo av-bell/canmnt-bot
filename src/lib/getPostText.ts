@@ -152,7 +152,9 @@ export default async function getPostText()
 			|| contentString.includes("@TopFlight612") 
 			|| contentString.includes(".@TopFlight612") 
 			|| contentString.includes("@Toxic_Thekla")  
+			|| contentString.includes(".@Toxic_Thekla")  
 			|| contentString.includes("@toxic_thekla")  
+			|| contentString.includes(".@toxic_thekla") 
 			|| contentString.includes("@TonyKhan")  
 			|| contentString.includes("@TrueWillieHobbs")  
 			|| contentString.includes("@Triller_TV")  
@@ -240,9 +242,10 @@ export default async function getPostText()
 			contentString = contentString.replace("@TheKaun","Bishop Kaun");
 			contentString = contentString.replace("@TopFlight612","Top Flight");
 			contentString = contentString.replace(".@TopFlight612","Top Flight");
-			
 			contentString = contentString.replace("@Toxic_Thekla","Thekla");
 			contentString = contentString.replace("@toxic_thekla","Thekla");
+			contentString = contentString.replace(".@Toxic_Thekla","Thekla");
+			contentString = contentString.replace(".@toxic_thekla","Thekla");
 			contentString = contentString.replace("@ToaLiona","Toa Liona");
 			contentString = contentString.replace("@toaliona","Toa Liona");
 			contentString = contentString.replace("@TrueWillieHobbs","Powerhouse Hobbs");

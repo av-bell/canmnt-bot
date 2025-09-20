@@ -12,7 +12,7 @@ const mastodon = new Mastodon.API({access_token: 'PRZhmwmS5fpkXo442UE8SGHv8TL7XO
 */
 export default async function getPostText() 
 {
-	const limitVal = 5; // The number of posts to get from Mastodon.
+	const limitVal = 10; // The number of posts to get from Mastodon.
 	var pReg = new RegExp("</p><p>", "g"); // A regex to deal with <p></p>. This should create a new section in the text, which we do via 2 line breaks.
 	var brReg = new RegExp("<br>", "g"); // A regex to deal with <br>. This should go to the next line, which we do via a line break. 
 	var quoteReg = new RegExp(`\\\\"`, "g"); // A regex to deal with \". This should be replaced with a " value with no \.
@@ -77,111 +77,160 @@ export default async function getPostText()
 		contentString = contentString.slice(1,-1); // Remove the quotation marks.
 		contentString = contentString.replace(twitterReg, "").replace(waltRuffReg, "notwaltruff.bsky.social").replace(sportsBotsReg, "").replace(logoReg, "").replace(quoteReg, `"`).replace(andReg, "&").replace(pReg, "\n\n").replace(brReg, "\n").replace(tagReg, ""); //Use the ", &, <p>, and <br> regexes to apply appropriate formatting. Then use the general regex to remove the HTML formatting from the mastodon post. 
 
-		if (contentString.includes("@DarbyAllin") || contentString.includes("@JonMoxley") || contentString.includes("@MercedesVarnado") 
-			|| contentString.includes("@SussexCoChicken") || contentString.includes("@The305MVP")  || contentString.includes("@KingRicochet")  
-			|| contentString.includes("@The_MJF")  || contentString.includes("@RatedRCope") || contentString.includes("@Walking_Weapon")  
-			|| contentString.includes("@_ReyHechicero")  ||  contentString.includes("@Jet2Flyy")  ||  contentString.includes("@SpeedballBailey")  
-			|| contentString.includes("@YoungBucks") || contentString.includes("@youngbucks") ||  contentString.includes("@BrodyXKing")  ||    contentString.includes("@Brodyxking")  
-			|| contentString.includes("@BandidoWrestler") || contentString.includes("@bandidowrestler") || contentString.includes("@CallMeKrisStat") 
-			|| contentString.includes("@callmekrisstat") ||  contentString.includes("@Toxic_Thekla")  ||  contentString.includes("@toxic_thekla")  
-			|| contentString.includes("@jmehytr")  ||  contentString.includes("@KyleFletcherPro")  || contentString.includes("@kylefletcherpro")  
-			|| contentString.includes("@TheDonCallis")  ||  contentString.includes("@TheCaZXL")  ||  contentString.includes("@WillowWrestles")  
-			|| contentString.includes("@willowwrestles")  ||  contentString.includes("@MinaShirakawa")  ||  contentString.includes("@ReneePaquette")  
-			|| contentString.includes("@HarleyCameron_")  ||  contentString.includes("@harleycameron_")  ||  contentString.includes("@amisylle")  
-			|| contentString.includes("@Amisylle")  || contentString.includes("@TheJuliaHart")  ||  contentString.includes("@thejuliahart")  
-			|| contentString.includes("@SkyeByee")  || contentString.includes("@skyebyee")  ||  contentString.includes("@MeganBayne")  
-			|| contentString.includes("@meganbayne")  ||  contentString.includes("@ThePenelopeFord")  ||  contentString.includes("@thepenelopeford")  
-			|| contentString.includes("@SheltyB803")  || contentString.includes("@FightBobby")  || contentString.includes("@fightbobby") 
-			|| contentString.includes("@thekaun")  || contentString.includes("@TheKaun")  || contentString.includes("@The305MVP") 
-			|| contentString.includes("@takesoup")  || contentString.includes("@Takesoup")  || contentString.includes("@RainmakerXOkada")  
-			|| contentString.includes("@rainmakerXokada")  || contentString.includes("@MascaraDoradMD")  ||  contentString.includes("@BryanDanielson")  
-			|| contentString.includes("@bryandanielson")  || contentString.includes("@CashWheelerFTR")  ||  contentString.includes("@DaxFTR")  
-			|| contentString.includes("@Christian4Peeps")  || contentString.includes("@SamoaJoe")  || contentString.includes("@samoajoe")  
-			|| contentString.includes("@TrueWillieHobbs")  || contentString.includes("@K_Shibata2022") || contentString.includes("@HBOMax")  
-			|| contentString.includes("@PrimeVideo")  ||  contentString.includes("@Triller_TV")  || contentString.includes("@ppv_com")  
-			|| contentString.includes("@AntnyHenry")  ||  contentString.includes("@antnyhenry")  ||  contentString.includes("@RealJDDrake")  
-			|| contentString.includes("@TheKipSabian")  || contentString.includes("@BeastMortos")  || contentString.includes("@TonyKhan")  
-			|| contentString.includes("@RoderickStrong")  || contentString.includes("@roderickstrong")  || contentString.includes("@TBSNetwork")  
-			|| contentString.includes("@SportsonMax"))
+		if (contentString.includes("@AntnyHenry")  
+			|| contentString.includes("@antnyhenry")  
+			|| contentString.includes("@Amisylle") 
+			|| contentString.includes("@BandidoWrestler") 
+			|| contentString.includes("@bandidowrestler") 
+			|| contentString.includes("@BeastMortos") 
+			|| contentString.includes("@BryanDanielson")  
+			|| contentString.includes("@bryandanielson") 
+			|| contentString.includes("@BrodyXKing")  
+			|| contentString.includes("@Brodyxking")  
+			|| contentString.includes("@CallMeKrisStat") 
+			|| contentString.includes("@callmekrisstat") 
+			|| contentString.includes("@CashWheelerFTR")  
+ 			|| contentString.includes("@Christian4Peeps")  
+			|| contentString.includes("@DarbyAllin") 
+			|| contentString.includes("@DaxFTR")  
+			|| contentString.includes("@FightBobby")  
+			|| contentString.includes("@fightbobby") 
+			|| contentString.includes("@HarleyCameron_")  
+			|| contentString.includes("@harleycameron_")  
+ 			|| contentString.includes("@HBOMax")  
+			|| contentString.includes("@JonMoxley") 
+			|| contentString.includes("@Jet2Flyy")  
+			|| contentString.includes("@jmehytr")  
+			|| contentString.includes("@KingRicochet")  
+			|| contentString.includes("@KyleFletcherPro")  
+			|| contentString.includes("@kylefletcherpro")  
+			|| contentString.includes("@K_Shibata2022") 
+			|| contentString.includes("@MercedesVarnado") 
+			|| contentString.includes("@MinaShirakawa")  
+			|| contentString.includes("@MeganBayne")  
+			|| contentString.includes("@meganbayne")  
+			|| contentString.includes("@MascaraDoradMD")  
+			|| contentString.includes("@PrimeVideo")  
+			|| contentString.includes("@ppv_com")  
+			|| contentString.includes("@RainmakerXOkada")  
+			|| contentString.includes("@rainmakerXokada")  
+			|| contentString.includes("@RatedRCope") 
+			|| contentString.includes("@ReneePaquette")  
+			|| contentString.includes("@RealJDDrake")  
+			|| contentString.includes("@RoderickStrong")  
+			|| contentString.includes("@roderickstrong")  
+			|| contentString.includes("@SamoaJoe")  
+			|| contentString.includes("@samoajoe")  
+			|| contentString.includes("@SportsonMax")
+			|| contentString.includes("@SheltyB803")  
+			|| contentString.includes("@SpeedballBailey")  
+			|| contentString.includes("@SkyeByee")  
+			|| contentString.includes("@skyebyee")  
+			|| contentString.includes("@SussexCoChicken") 
+			|| contentString.includes("@takesoup")  
+			|| contentString.includes("@Takesoup")  
+			|| contentString.includes("@TBSNetwork")  
+			|| contentString.includes("@TheCaZXL")  
+			|| contentString.includes("@TheDonCallis")  
+			|| contentString.includes("@The305MVP")  
+			|| contentString.includes("@The_MJF") 
+			|| contentString.includes("@TheJuliaHart")
+			||  contentString.includes("@thejuliahart")  
+			|| contentString.includes("@thekaun")  
+			|| contentString.includes("@TheKaun")  
+			|| contentString.includes("@ThePenelopeFord")  
+			|| contentString.includes("@thepenelopeford")  
+			|| contentString.includes("@TheKipSabian")  
+			|| contentString.includes("@Toxic_Thekla")  
+			|| contentString.includes("@toxic_thekla")  
+			|| contentString.includes("@TonyKhan")  
+			|| contentString.includes("@TrueWillieHobbs")  
+			|| contentString.includes("@Triller_TV")  
+			|| contentString.includes("@Walking_Weapon")  
+			|| contentString.includes("@WillowWrestles")  
+			|| contentString.includes("@willowwrestles")  
+			|| contentString.includes("@YoungBucks") 
+			|| contentString.includes("@youngbucks") 
+			|| contentString.includes("@_ReyHechicero"))
 		{
-			contentString = contentString.replace("@DarbyAllin","Darby Allin")
-			contentString = contentString.replace("@JonMoxley","Jon Moxley");
-			contentString = contentString.replace("@MercedesVarnado","Mercedes Moné");
-			contentString = contentString.replace("@SussexCoChicken","Mark Briscoe");
-			contentString = contentString.replace("@The305MVP","MVP");
-			contentString = contentString.replace("@KingRicochet","Ricochet");
-			contentString = contentString.replace("@The_MJF","MJF");
-			contentString = contentString.replace("@RatedRCope","Adam Copeland");
-			contentString = contentString.replace("@Walking_Weapon","Josh Alexander");
-			contentString = contentString.replace("@_ReyHechicero","Hechicero");
-			contentString = contentString.replace("@Jet2Flyy","Kevin Knight");
-			contentString = contentString.replace("@SpeedballBailey","Speedball Mike Bailey");
-			contentString = contentString.replace("@YoungBucks","Young Bucks");
-			contentString = contentString.replace("@youngbucks","Young Bucks");
-			contentString = contentString.replace("@BrodyXKing","Brody King");
-			contentString = contentString.replace("@Brodyxking","Brody King");
-			contentString = contentString.replace("@BandidoWrestler","Bandido");
-			contentString = contentString.replace("@bandidowrestler","Bandido");
-			contentString = contentString.replace("@CallMeKrisStat","Kris Statlander");
-			contentString = contentString.replace("@callmekrisstat","Kris Statlander");
-			contentString = contentString.replace("@Toxic_Thekla","Thekla");
-			contentString = contentString.replace("@toxic_thekla","Thekla");
-			contentString = contentString.replace("@jmehytr","Jamie Hayter");
-			contentString = contentString.replace("@KyleFletcherPro","Kyle Fletcher");
-			contentString = contentString.replace("@kylefletcherpro","Kyle Fletcher");
-			contentString = contentString.replace("@TheDonCallis","Don Callis");
-			contentString = contentString.replace("@TheCaZXL","Big Bill");
-			contentString = contentString.replace("@BandidoWrestler","Bandido");
-			contentString = contentString.replace("@WillowWrestles","Willow Nightingale");
-			contentString = contentString.replace("@willowwrestles","Willow Nightingale");
-			contentString = contentString.replace("@MinaShirakawa","Mina Shirakawa");
-			contentString = contentString.replace("@ReneePaquette","Renee Paquette");
-			contentString = contentString.replace("@HarleyCameron_","Harley Cameron");
 			contentString = contentString.replace("@Amisylle","Queen Aminata");
 			contentString = contentString.replace("@amisylle","Queen Aminata");
-			contentString = contentString.replace("@harleycameron_","Harley Cameron");
-			contentString = contentString.replace("@TheJuliaHart","Julia Hart");
-			contentString = contentString.replace("@thejuliahart","Julia Hart");
-			contentString = contentString.replace("@SkyeByee","Skye Blue");
-			contentString = contentString.replace("@skyebyee","Skye Blue");
-			contentString = contentString.replace("@MeganBayne","Megan Bayne");
-			contentString = contentString.replace("@meganbayne","Megan Bayne");
-			contentString = contentString.replace("@ThePenelopeFord","Penelope Ford");
-			contentString = contentString.replace("@thepenelopeford","Penelope Ford");
-			contentString = contentString.replace("@SheltyB803","Shelton Benjamin");
-			contentString = contentString.replace("@Sheltyb803","Shelton Benjamin");
-			contentString = contentString.replace("@fightbobby","Bobby Lashley");
-			contentString = contentString.replace("@FightBobby","Bobby Lashley");
-			contentString = contentString.replace("@thekaun","Bishop Kaun");
-			contentString = contentString.replace("@TheKaun","Bishop Kaun");
-			contentString = contentString.replace("@takesoup","Konosuke Takeshita");
-			contentString = contentString.replace("@Takesoup","Konosuke Takeshita");
-			contentString = contentString.replace("@RainmakerXOkada","Kazuchika Okada");
-			contentString = contentString.replace("@rainmakerXokada","Kazuchika Okada");
-			contentString = contentString.replace("@MascaraDoradMD","Máscara Dorada");
-			contentString = contentString.replace("@BryanDanielson","Bryan Danielson");
-			contentString = contentString.replace("@bryandanielson","Bryan Danielson");
-			contentString = contentString.replace("@Christian4Peeps","Christian Cage");
-			contentString = contentString.replace("@CashWheelerFTR","Cash Wheeler");
-			contentString = contentString.replace("@DaxFTR","Dax Harwood");
-			contentString = contentString.replace("@SamoaJoe","Samoa Joe");
-			contentString = contentString.replace("@samoajoe","Samoa Joe");
-			contentString = contentString.replace("@TrueWillieHobbs","Powerhouse Hobbs");
-			contentString = contentString.replace("@K_Shibata2022","Shibata");
-			contentString = contentString.replace("@HBOMax","HBO Max");
-			contentString = contentString.replace("@PrimeVideo","Prime Video");
-			contentString = contentString.replace("@Triller_TV","Triller");
-			contentString = contentString.replace("@ppv_com","PPV.com");
 			contentString = contentString.replace("@AntnyHenry","Anthony Henry");
 			contentString = contentString.replace("@antnyhenry","Anthony Henry");
-			contentString = contentString.replace("@RealJDDrake","JD Drake");
-			contentString = contentString.replace("@TheKipSabian","Kip Sabian");
+			contentString = contentString.replace("@BandidoWrestler","Bandido");
+			contentString = contentString.replace("@bandidowrestler","Bandido");
 			contentString = contentString.replace("@BeastMortos","Beast Mortos");
-			contentString = contentString.replace("@TonyKhan","Tony Khan");
+			contentString = contentString.replace("@BryanDanielson","Bryan Danielson");
+			contentString = contentString.replace("@bryandanielson","Bryan Danielson");
+			contentString = contentString.replace("@BrodyXKing","Brody King");
+			contentString = contentString.replace("@Brodyxking","Brody King");
+			contentString = contentString.replace("@CallMeKrisStat","Kris Statlander");
+			contentString = contentString.replace("@callmekrisstat","Kris Statlander");
+			contentString = contentString.replace("@Christian4Peeps","Christian Cage");
+			contentString = contentString.replace("@CashWheelerFTR","Cash Wheeler");
+			contentString = contentString.replace("@DarbyAllin","Darby Allin")
+			contentString = contentString.replace("@DARBYALLIN","Darby Allin")
+			contentString = contentString.replace("@DaxFTR","Dax Harwood");
+			contentString = contentString.replace("@fightbobby","Bobby Lashley");
+			contentString = contentString.replace("@FightBobby","Bobby Lashley");
+			contentString = contentString.replace("@HarleyCameron_","Harley Cameron");
+			contentString = contentString.replace("@harleycameron_","Harley Cameron");
+			contentString = contentString.replace("@HBOMax","HBO Max");
+			contentString = contentString.replace("@JonMoxley","Jon Moxley");
+			contentString = contentString.replace("@Jet2Flyy","Kevin Knight");
+			contentString = contentString.replace("@jmehytr","Jamie Hayter");
+			contentString = contentString.replace("@KingRicochet","Ricochet");
+			contentString = contentString.replace("@KyleFletcherPro","Kyle Fletcher");
+			contentString = contentString.replace("@kylefletcherpro","Kyle Fletcher");
+			contentString = contentString.replace("@K_Shibata2022","Shibata");
+			contentString = contentString.replace("@MercedesVarnado","Mercedes Moné");
+			contentString = contentString.replace("@MinaShirakawa","Mina Shirakawa");
+			contentString = contentString.replace("@MeganBayne","Megan Bayne");
+			contentString = contentString.replace("@meganbayne","Megan Bayne");
+			contentString = contentString.replace("@MascaraDoradMD","Máscara Dorada");
+			contentString = contentString.replace("@PrimeVideo","Prime Video");
+			contentString = contentString.replace("@ppv_com","PPV.com");
+			contentString = contentString.replace("@RatedRCope","Adam Copeland");
+			contentString = contentString.replace("@ReneePaquette","Renee Paquette");
+			contentString = contentString.replace("@RainmakerXOkada","Okada");
+			contentString = contentString.replace("@rainmakerXokada","Okada");
+			contentString = contentString.replace("@RealJDDrake","JD Drake");
 			contentString = contentString.replace("@RoderickStrong","Roderick Strong");
 			contentString = contentString.replace("@roderickstrong","Roderick Strong");
-			contentString = contentString.replace("@TBSNetwork","TBS");
+			contentString = contentString.replace("@SamoaJoe","Samoa Joe");
+			contentString = contentString.replace("@samoajoe","Samoa Joe");
+			contentString = contentString.replace("@SussexCoChicken","Mark Briscoe");
+			contentString = contentString.replace("@SpeedballBailey","Speedball Mike Bailey");
+			contentString = contentString.replace("@SkyeByee","Skye Blue");
+			contentString = contentString.replace("@skyebyee","Skye Blue");
+			contentString = contentString.replace("@SheltyB803","Shelton Benjamin");
+			contentString = contentString.replace("@Sheltyb803","Shelton Benjamin");
 			contentString = contentString.replace("@SportsonMax","HBO Max");
+			contentString = contentString.replace("@The305MVP","MVP");
+			contentString = contentString.replace("@The_MJF","MJF");
+			contentString = contentString.replace("@Toxic_Thekla","Thekla");
+			contentString = contentString.replace("@toxic_thekla","Thekla");
+			contentString = contentString.replace("@takesoup","Konosuke Takeshita");
+			contentString = contentString.replace("@Takesoup","Konosuke Takeshita");
+			contentString = contentString.replace("@TBSNetwork","TBS");
+			contentString = contentString.replace("@TheDonCallis","Don Callis");
+			contentString = contentString.replace("@TheCaZXL","Big Bill");
+			contentString = contentString.replace("@TheJuliaHart","Julia Hart");
+			contentString = contentString.replace("@thejuliahart","Julia Hart");
+			contentString = contentString.replace("@ThePenelopeFord","Penelope Ford");
+			contentString = contentString.replace("@thepenelopeford","Penelope Ford");
+			contentString = contentString.replace("@thekaun","Bishop Kaun");
+			contentString = contentString.replace("@TheKaun","Bishop Kaun");
+			contentString = contentString.replace("@TrueWillieHobbs","Powerhouse Hobbs");
+			contentString = contentString.replace("@Triller_TV","Triller");
+			contentString = contentString.replace("@TheKipSabian","Kip Sabian");
+			contentString = contentString.replace("@TonyKhan","Tony Khan");
+			contentString = contentString.replace("@Walking_Weapon","Josh Alexander");
+			contentString = contentString.replace("@WillowWrestles","Willow Nightingale");
+			contentString = contentString.replace("@willowwrestles","Willow Nightingale");
+			contentString = contentString.replace("@YoungBucks","Young Bucks");
+			contentString = contentString.replace("@youngbucks","Young Bucks");
+			contentString = contentString.replace("@_ReyHechicero","Hechicero");
 
 			
 		}

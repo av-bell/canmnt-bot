@@ -161,7 +161,10 @@ export default async function getPostText()
 			|| contentString.includes("@SussexCoChicken") 
 			|| contentString.includes("@takesoup")  
 			|| contentString.includes("@Takesoup")  
-			|| contentString.includes("@TBSNetwork") 
+			|| contentString.includes("@TBSNetwork")
+			|| contentString.includes("@tntdrama")
+			|| contentString.includes("@TNTDrama")
+			|| contentString.includes("@TNTdrama")
 			|| contentString.includes("@The_Ace_Austin")
 			|| contentString.includes("@the_ace_austin")
 			|| contentString.includes("@theaustingunn")
@@ -352,6 +355,9 @@ export default async function getPostText()
 			contentString = contentString.replace("@the_ace_austin","Ace Austin");
 			contentString = contentString.replace("@takesoup","Konosuke Takeshita");
 			contentString = contentString.replace("@Takesoup","Konosuke Takeshita");
+			contentString = contentString.replace("@tntdrama","TNT");
+			contentString = contentString.replace("@TNTdrama","TNT");
+			contentString = contentString.replace("@TNTDrama","TNT");
 			contentString = contentString.replace("@The305MVP","MVP");
 			contentString = contentString.replace("@theaustingunn","Austin Gunn");
 			contentString = contentString.replace("@The_MJF","MJF");

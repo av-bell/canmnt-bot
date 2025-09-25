@@ -105,7 +105,9 @@ export default async function getPostText()
 			|| contentString.includes("@BrodyXKing")  
 			|| contentString.includes("@Brodyxking")  
 			|| contentString.includes("@CallMeKrisStat") 
+			|| contentString.includes(".@CallMeKrisStat") 
 			|| contentString.includes("@callmekrisstat") 
+			|| contentString.includes(".@callmekrisstat")
 			|| contentString.includes("@CashWheelerFTR")  
  			|| contentString.includes("@Christian4Peeps")  
 			|| contentString.includes("@DarbyAllin") 
@@ -131,6 +133,7 @@ export default async function getPostText()
 			|| contentString.includes("@Lucha_Angel1") 
 			|| contentString.includes("@MercedesVarnado") 
 			|| contentString.includes("@MinaShirakawa")  
+			|| contentString.includes(".@MinaShirakawa") 
 			|| contentString.includes("@MotherAEW")  
 			|| contentString.includes("@MeganBayne")  
 			|| contentString.includes("@meganbayne")  
@@ -284,6 +287,8 @@ export default async function getPostText()
 			contentString = contentString.replace("@Brodyxking","Brody King");
 			contentString = contentString.replace("@CallMeKrisStat","Kris Statlander");
 			contentString = contentString.replace("@callmekrisstat","Kris Statlander");
+			contentString = contentString.replace(".@CallMeKrisStat","Kris Statlander");
+			contentString = contentString.replace(".@callmekrisstat","Kris Statlander");
 			contentString = contentString.replace("@Christian4Peeps","Christian Cage");
 			contentString = contentString.replace("@CashWheelerFTR","Cash Wheeler");
 			contentString = contentString.replace("@DarbyAllin","Darby Allin")
@@ -310,6 +315,7 @@ export default async function getPostText()
 			contentString = contentString.replace("@Lucha_Angel1","Dante Martin");
 			contentString = contentString.replace("@MercedesVarnado","Mercedes Moné");
 			contentString = contentString.replace("@MinaShirakawa","Mina Shirakawa");
+			contentString = contentString.replace(".@MinaShirakawa","Mina Shirakawa");
 			contentString = contentString.replace("@MotherAEW","Mother Wayne");
 			contentString = contentString.replace("@MeganBayne","Megan Bayne");
 			contentString = contentString.replace("@meganbayne","Megan Bayne");

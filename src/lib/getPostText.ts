@@ -12,7 +12,7 @@ const mastodon = new Mastodon.API({access_token: 'PRZhmwmS5fpkXo442UE8SGHv8TL7XO
 */
 export default async function getPostText() 
 {
-	const limitVal = 9; // The number of posts to get from Mastodon.
+	const limitVal = 12; // The number of posts to get from Mastodon.
 	var pReg = new RegExp("</p><p>", "g"); // A regex to deal with <p></p>. This should create a new section in the text, which we do via 2 line breaks.
 	var brReg = new RegExp("<br>", "g"); // A regex to deal with <br>. This should go to the next line, which we do via a line break. 
 	var quoteReg = new RegExp(`\\\\"`, "g"); // A regex to deal with \". This should be replaced with a " value with no \.
@@ -186,7 +186,9 @@ export default async function getPostText()
 			|| contentString.includes("@Triller_TV")  
 			|| contentString.includes("@Walking_Weapon")  
 			|| contentString.includes("@WillowWrestles")  
+			|| contentString.includes(".@WillowWrestles") 
 			|| contentString.includes("@willowwrestles")  
+			|| contentString.includes(".@willowwrestles")  
 			|| contentString.includes("@YoungBucks") 
 			|| contentString.includes("@youngbucks") 
 			|| contentString.includes("@_ReyHechicero")
@@ -232,6 +234,7 @@ export default async function getPostText()
 			|| contentString.includes("@theDaddyMagic")
 			|| contentString.includes("@McGuinnessNigel")
 			|| contentString.includes("@orangecassidy")
+			|| contentString.includes(".@orangecassidy")
 			|| contentString.includes("@bastardpac")
 			|| contentString.includes("@PrinceKingNana")
 			|| contentString.includes("@RJCity1")
@@ -363,7 +366,9 @@ export default async function getPostText()
 			contentString = contentString.replace("@TonyKhan","Tony Khan");
 			contentString = contentString.replace("@Walking_Weapon","Josh Alexander");
 			contentString = contentString.replace("@WillowWrestles","Willow Nightingale");
+			contentString = contentString.replace(".@WillowWrestles","Willow Nightingale");
 			contentString = contentString.replace("@willowwrestles","Willow Nightingale");
+			contentString = contentString.replace(".@willowwrestles","Willow Nightingale");
 			contentString = contentString.replace("@YoungBucks","Young Bucks");
 			contentString = contentString.replace("@youngbucks","Young Bucks");
 			contentString = contentString.replace("@_ReyHechicero","Hechicero");
@@ -401,6 +406,7 @@ export default async function getPostText()
 			contentString = contentString.replace("@theDaddyMagic","Matt Menard");
 			contentString = contentString.replace("@McGuinnessNigel","Nigel McGuinness");
 			contentString = contentString.replace("@orangecassidy","Orange Cassidy");
+			contentString = contentString.replace(".@orangecassidy","Orange Cassidy");
 			contentString = contentString.replace("@bastardpac","PAC");
 			contentString = contentString.replace("@PrinceKingNana","Prince Nana");
 			contentString = contentString.replace("@RJCity1","RJ City");

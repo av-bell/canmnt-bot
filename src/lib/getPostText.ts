@@ -172,6 +172,7 @@ export default async function getPostText()
 			|| contentString.includes("@thePenelopeFord")  
 			|| contentString.includes("@TheKipSabian")  
 			|| contentString.includes("@ToaLiona") 
+			|| contentString.includes(".@ToaLiona")
 			|| contentString.includes("@TopFlight612") 
 			|| contentString.includes(".@TopFlight612") 
 			|| contentString.includes("@Toxic_Thekla")  
@@ -244,7 +245,9 @@ export default async function getPostText()
 			|| contentString.includes("@turbofloyd_")
 			|| contentString.includes("@WheelerYuta")
 			|| contentString.includes("Happy Birthday! @DariusMartin612")
-		    || contentString.includes("@Sting"))
+		    || contentString.includes("@Sting")
+		    || contentString.includes("@theleemoriarty")
+		    || contentString.includes(".@theleemoriarty"))
 		{
 			contentString = contentString.replace("@aaron_solo_","Aaron Solo");
 			contentString = contentString.replace("@ActionAndretti","Action Andretti");
@@ -350,7 +353,9 @@ export default async function getPostText()
 			contentString = contentString.replace(".@toxic_thekla","Thekla");
 			contentString = contentString.replace("@TOXIC_THEKLA","THEKLA");
 			contentString = contentString.replace("@ToaLiona","Toa Liona");
+			contentString = contentString.replace(".@ToaLiona","Toa Liona");
 			contentString = contentString.replace("@toaliona","Toa Liona");
+			contentString = contentString.replace(".@toaliona","Toa Liona");
 			contentString = contentString.replace("@TrueWillieHobbs","Powerhouse Hobbs");
 			contentString = contentString.replace("@Triller_TV","Triller");
 			contentString = contentString.replace("@TonyKhan","Tony Khan");
@@ -409,6 +414,7 @@ export default async function getPostText()
 			contentString = contentString.replace("@WheelerYuta","Wheeler Yuta");
 			contentString = contentString.replace("Happy Birthday! Darius Martin","Happy Birthday Darius Martin!");
 			contentString = contentString.replace("@Sting","Sting");
+			contentString = contentString.replace("@theleemoriarty","Lee Moriarty");
 
 			
 		}

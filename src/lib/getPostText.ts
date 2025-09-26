@@ -208,6 +208,13 @@ export default async function getPostText()
 			|| contentString.includes("@_ReyHechicero")
 		    || contentString.includes("@RealBillyGunn")
 			|| contentString.includes("@_BlakeChristian")
+			|| contentString.includes(".@_BlakeChristian")
+			|| contentString.includes("@_blakechristian")
+			|| contentString.includes(".@_blakechristian")
+			|| contentString.includes("@BigShottyLee")
+			|| contentString.includes(".@BigShottyLee")
+			|| contentString.includes("@bigshottylee")
+			|| contentString.includes(".@bigshottylee")
 			|| contentString.includes("@BranCutler")
 			|| contentString.includes("@briancagegmsi")
 			|| contentString.includes("@bountykeith")
@@ -403,6 +410,10 @@ export default async function getPostText()
 			contentString = contentString.replace("@youngbucks","Young Bucks");
 			contentString = contentString.replace("@_ReyHechicero","Hechicero");
 			contentString = contentString.replace("@SNM_Buddy","Buddy Matthews");
+			contentString = contentString.replace("@BigShottyLee","Lee Johnson");
+			contentString = contentString.replace(".@BigShottyLee","Lee Johnson");
+			contentString = contentString.replace("@bigshottylee","Lee Johnson");
+			contentString = contentString.replace(".@bigshottylee","Lee Johnson");
 			contentString = contentString.replace("@_BlakeChristian","Blake Christian");
 			contentString = contentString.replace("@_blakechristian","Blake Christian");
 			contentString = contentString.replace(".@_blakechristian","Blake Christian");

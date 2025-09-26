@@ -403,6 +403,10 @@ export default async function getPostText()
 			contentString = contentString.replace("@youngbucks","Young Bucks");
 			contentString = contentString.replace("@_ReyHechicero","Hechicero");
 			contentString = contentString.replace("@SNM_Buddy","Buddy Matthews");
+			contentString = contentString.replace("@_BlakeChristian","Blake Christian");
+			contentString = contentString.replace("@_blakechristian","Blake Christian");
+			contentString = contentString.replace(".@_blakechristian","Blake Christian");
+			contentString = contentString.replace(".@_BlakeChristian","Blake Christian");
 			contentString = contentString.replace("@carliebravo","Carlie Bravo");
 			contentString = contentString.replace("@facdaniels","Christopher Daniels");
 			contentString = contentString.replace("@SexyChuckieT","Chuck Taylor");

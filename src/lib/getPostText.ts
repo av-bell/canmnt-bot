@@ -95,15 +95,20 @@ export default async function getPostText()
 			|| contentString.includes("@RefAubrey")
 			|| contentString.includes("@BandidoWrestler") 
 			|| contentString.includes("@bandidowrestler") 
+			|| contentString.includes(".@BandidoWrestler") 
+			|| contentString.includes(".@bandidowrestler") 
 			|| contentString.includes("@BeastMortos") 
 			|| contentString.includes("@billiestarkz") 
 			|| contentString.includes("@Bowens_Official") 
+			|| contentString.includes(".@Bowens_Official") 
 			|| contentString.includes("@BryanDanielson")  
 			|| contentString.includes("@bryandanielson")
 			|| contentString.includes(".@bryandanielson")
 			|| contentString.includes(".@BryanDanielson") 
 			|| contentString.includes("@BrodyXKing")  
 			|| contentString.includes("@Brodyxking")  
+			|| contentString.includes(".@BrodyXKing")  
+			|| contentString.includes(".@Brodyxking")
 			|| contentString.includes("@CallMeKrisStat") 
 			|| contentString.includes(".@CallMeKrisStat") 
 			|| contentString.includes("@callmekrisstat") 
@@ -305,16 +310,21 @@ export default async function getPostText()
 			contentString = contentString.replace("@RefAubrey","Aubrey Edwards");
 			contentString = contentString.replace("@BandidoWrestler","Bandido");
 			contentString = contentString.replace("@bandidowrestler","Bandido");
-			contentString = contentString.replace("@BeastMortos","Beast Mortos");
+			contentString = contentString.replace("@BandidoWrestler","Bandido");
+			contentString = contentString.replace(".@bandidowrestler","Bandido");
+			contentString = contentString.replace(".@BeastMortos","Beast Mortos");
 			contentString = contentString.replace("@ajbefumo","Big Boom AJ");
 			contentString = contentString.replace("@billiestarkz","Billie Starkz");
 			contentString = contentString.replace("@Bowens_Official","Anthony Bowens");
+			contentString = contentString.replace(".@Bowens_Official","Anthony Bowens");
 			contentString = contentString.replace("@BryanDanielson","Bryan Danielson");
 			contentString = contentString.replace(".@BryanDanielson","Bryan Danielson");
 			contentString = contentString.replace("@bryandanielson","Bryan Danielson");
 			contentString = contentString.replace(".@bryandanielson","Bryan Danielson");
 			contentString = contentString.replace("@BrodyXKing","Brody King");
 			contentString = contentString.replace("@Brodyxking","Brody King");
+			contentString = contentString.replace(".@BrodyXKing","Brody King");
+			contentString = contentString.replace(".@Brodyxking","Brody King");
 			contentString = contentString.replace("@CallMeKrisStat","Kris Statlander");
 			contentString = contentString.replace("@callmekrisstat","Kris Statlander");
 			contentString = contentString.replace(".@CallMeKrisStat","Kris Statlander");

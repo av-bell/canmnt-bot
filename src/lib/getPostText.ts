@@ -181,12 +181,14 @@ export default async function getPostText()
 			|| contentString.includes("@theaustingunn")
 			|| contentString.includes("@TheAngeloParker")
 			|| contentString.includes("@TheCaZXL")  
+			|| contentString.includes(".@TheCaZXL") 
 			|| contentString.includes("@TheDonCallis")  
 			|| contentString.includes("@The305MVP")  
 			|| contentString.includes("@The_MJF") 
 			|| contentString.includes(".@The_MJF") 
 			|| contentString.includes("@thenickwayne")
 			|| contentString.includes("@TheJuliaHart")
+			|| contentString.includes(".@TheJuliaHart")
 			||  contentString.includes("@thejuliahart")  
 			|| contentString.includes("@thekaun")  
 			|| contentString.includes("@TheKaun")  
@@ -246,15 +248,20 @@ export default async function getPostText()
 			|| contentString.includes("@shidahikaru")
 			|| contentString.includes("@AEWHologram")
 			|| contentString.includes("@730hook")
+			|| contentString.includes(".@AEWHologram")
+			|| contentString.includes(".@730hook")
 			|| contentString.includes("@ianriccaboni")
 			|| contentString.includes("@boy_myth_legend")
 			|| contentString.includes("@boymythlegend")
+			|| contentString.includes(".@boy_myth_legend")
+			|| contentString.includes(".@boymythlegend")
 			|| contentString.includes("@TheLethalJay")
 			|| contentString.includes("@jaywhitenz")
 			|| contentString.includes("@RealJeffJarrett")
 			|| contentString.includes("@JRsBBQ")
 			|| contentString.includes("@KennyOmegamanX")
 			|| contentString.includes("@KomandercrMX")
+			|| contentString.includes(".@KomandercrMX")
 			|| contentString.includes("@ibushi_kota")
 			|| contentString.includes("@KORcombat")
 			|| contentString.includes("@LanceHoyt")
@@ -402,8 +409,11 @@ export default async function getPostText()
 			contentString = contentString.replace("@thenickwayne","Nick Wayne");
 			contentString = contentString.replace("@TheDonCallis","Don Callis");
 			contentString = contentString.replace("@TheCaZXL","Big Bill");
+			contentString = contentString.replace.TheCaZXL","Big Bill");
 			contentString = contentString.replace("@TheJuliaHart","Julia Hart");
 			contentString = contentString.replace("@thejuliahart","Julia Hart");
+			contentString = contentString.replace(".@TheJuliaHart","Julia Hart");
+			contentString = contentString.replace(".@thejuliahart","Julia Hart");
 			contentString = contentString.replace("@TheKipSabian","Kip Sabian");
 			contentString = contentString.replace("@ThePenelopeFord","Penelope Ford");
 			contentString = contentString.replace("@thePenelopeFord","Penelope Ford");
@@ -456,16 +466,21 @@ export default async function getPostText()
 			contentString = contentString.replace("@EvilUno","Evil Uno");
 			contentString = contentString.replace("@ShutUpExcalibur","Excalibur");
 			contentString = contentString.replace("@AEWHologram","Hologram");
+			contentString = contentString.replace(".@AEWHologram","Hologram");
 			contentString = contentString.replace("@730hook","HOOK");
+			contentString = contentString.replace(".@730hook","HOOK");
 			contentString = contentString.replace("@ianriccaboni","Ian Riccaboni");
 			contentString = contentString.replace("@boy_myth_legend","Jack Perry");
 			contentString = contentString.replace("@boymythlegend","Jack Perry");
+			contentString = contentString.replace(".@boy_myth_legend","Jack Perry");
+			contentString = contentString.replace(".@boymythlegend","Jack Perry");
 			contentString = contentString.replace("@TheLethalJay","Jay Lethal");
 			contentString = contentString.replace("@jaywhitenz","Jay White");
 			contentString = contentString.replace("@RealJeffJarrett","Jeff Jarrett");
 			contentString = contentString.replace("@JRsBBQ","Jim Ross");
 			contentString = contentString.replace("@KennyOmegamanX","Kenny Omega");
 			contentString = contentString.replace("@KomandercrMX","Komander");
+			contentString = contentString.replace(".@KomandercrMX","Komander");
 			contentString = contentString.replace("@ibushi_kota","Kota Ibushi");
 			contentString = contentString.replace("@KORcombat","Kyle O'Reilly");
 			contentString = contentString.replace("@LanceHoyt","Lance Archer");

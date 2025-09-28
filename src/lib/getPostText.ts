@@ -345,8 +345,8 @@ export default async function getPostText()
 			contentString = contentString.replace(".@Brodyxking","Brody King");
 			contentString = contentString.replace("@CallMeKrisStat","Kris Statlander");
 			contentString = contentString.replace("@callmekrisstat","Kris Statlander");
-			contentString = contentString.replace(".@CallMeKrisStat","Kris Statlander");
-			contentString = contentString.replace(".@callmekrisstat","Kris Statlander");
+			contentString = contentString.replace(".Kris Statlander","Kris Statlander");
+			contentString = contentString.replace(".Kris Statlander","Kris Statlander");
 			contentString = contentString.replace("@Christian4Peeps","Christian Cage");
 			contentString = contentString.replace("@CashWheelerFTR","Cash Wheeler");
 			contentString = contentString.replace("@CMLL_OFICIAL","CMLL");
@@ -366,7 +366,7 @@ export default async function getPostText()
 			contentString = contentString.replace("@itsjerrylynn","Jerry Lynn");
 			contentString = contentString.replace(".@itsjerrylynn","Jerry Lynn");
 			contentString = contentString.replace("@JonMoxley","Jon Moxley");
-			contentString = contentString.replace(".@JonMoxley","Jon Moxley");
+			contentString = contentString.replace(".Jon Moxley","Jon Moxley");
 			contentString = contentString.replace("@Jet2Flyy","Kevin Knight");
 			contentString = contentString.replace("@jmehytr","Jamie Hayter");
 			contentString = contentString.replace("@JmeHytr","Jamie Hayter");

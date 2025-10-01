@@ -555,6 +555,7 @@ export default async function getPostText()
 			contentString = contentString.replace("Happy Birthday! @Ortiz_Powerful","Happy Birthday Ortiz!");
 			contentString = contentString.replace("Happy Birthday! Ortiz","Happy Birthday Ortiz!");
 			contentString = contentString.replace("Happy Birthday! Ariel Levy","Happy Birthday Ariel Levy!");
+			contentString = contentString.replace("Happy Birthday! Swerve Strickland","Happy Birthday Swerve Strickland!");
 			
 		}
 		

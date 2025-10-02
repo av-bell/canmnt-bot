@@ -443,6 +443,7 @@ export default async function getPostText()
 			contentString = contentString.replace(".MJF","MJF");
 			contentString = contentString.replace("@thenickwayne","Nick Wayne");
 			contentString = contentString.replace("@TheDonCallis","Don Callis");
+			contentString = contentString.replace(".Don Callis","Don Callis");
 			contentString = contentString.replace("@TheCaZXL","Big Bill");
 			contentString = contentString.replace(".@TheCaZXL","Big Bill");
 			contentString = contentString.replace("@TheJuliaHart","Julia Hart");

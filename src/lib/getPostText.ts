@@ -205,6 +205,7 @@ export default async function getPostText()
         	|| contentString.includes("@SheltyB803")  
         	|| contentString.includes("@shidahikaru")
         	|| contentString.includes("@ShidaHikaru")
+			|| contentString.includes("@ShopAEW")
         	|| contentString.includes("@ShutUpExcalibur")
         	|| contentString.includes("@Skyebyee")  
         	|| contentString.includes("@SkyeByee")  
@@ -397,6 +398,7 @@ export default async function getPostText()
 			contentString = contentString.replace("@SheltyB803","Shelton Benjamin");
 			contentString = contentString.replace("@shidahikaru","Hikaru Shida");
 			contentString = contentString.replace("@ShidaHikaru","Hikaru Shida");
+			contentString = contentString.replace("@ShopAEW","ShopAEW.com");
 			contentString = contentString.replace("@ShutUpExcalibur","Excalibur");
 			contentString = contentString.replace("@Skyebyee","Skye Blue");
 			contentString = contentString.replace("@SkyeByee","Skye Blue");

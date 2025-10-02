@@ -342,6 +342,7 @@ export default async function getPostText()
 			contentString = contentString.replace("@AntnyHenry","Anthony Henry");
 			contentString = contentString.replace("@Antnyhenry","Anthony Henry");
 			contentString = contentString.replace("@AndradeElIdolo","Andrade");
+			contentString = contentString.replace(".Andrade","Andrade");
 			contentString = contentString.replace("@AthenaPalmer_FG","Athena");
 			contentString = contentString.replace("@ARealFoxx","AR Fox");
 			contentString = contentString.replace("@azucarRoc","Rocky Romero");

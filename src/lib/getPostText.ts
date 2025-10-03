@@ -252,6 +252,7 @@ export default async function getPostText()
         	|| contentString.includes("@tntdrama")
         	|| contentString.includes("@TNTdrama")
         	|| contentString.includes("@TNTDrama")
+			|| contentString.includes("@TNTNetwork")
         	|| contentString.includes("@ToaLiona")
         	|| contentString.includes("@TonyKhan")  
         	|| contentString.includes("@tonyschiavone24")
@@ -448,6 +449,7 @@ export default async function getPostText()
 			contentString = contentString.replace("@ThunderRosa22","Thunder Rosa");
 			contentString = contentString.replace("@tntdrama","TNT");
 			contentString = contentString.replace("@TNTdrama","TNT");
+			contentString = contentString.replace("@TNTNetwork","TNT");
 			contentString = contentString.replace("@toaliona","Toa Liona");
 			contentString = contentString.replace("@ToaLiona","Toa Liona");
 			contentString = contentString.replace("@TonyKhan","Tony Khan");

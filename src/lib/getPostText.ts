@@ -608,6 +608,7 @@ export default async function getPostText()
 			contentString = contentString.replace(".Jay Lethal","Jay Lethal");
 			contentString = contentString.replace(".Nick Wayne","Nick Wayne");
 			contentString = contentString.replace(".Penelope Ford","Penelope Ford");
+			contentString = contentString.replace(".Ring of Honor","Ring of Honor");
 			contentString = contentString.replace(".RUSH","RUSH");
 			contentString = contentString.replace(".Thunder Rosa","Thunder Rosa");
 			contentString = contentString.replace(".TNT","TNT");

@@ -284,6 +284,7 @@ export default async function getPostText()
 		   )
 		{
 			contentString = contentString.replace("@_blakechristian","Blake Christian");
+			contentString = contentString.replace("@_BlakeChristian","Blake Christian");
 			contentString = contentString.replace("@_ReyHechicero","Hechicero");
 			contentString = contentString.replace("@_ReyHecicero","Hechicero");
 			contentString = contentString.replace("@730hook","HOOK");

@@ -344,7 +344,7 @@ export default async function getPostText()
 			contentString = contentString.replace("@CMLL_OFICIAL","CMLL");
 			contentString = contentString.replace("@coltengunn","Colten Gunn");
 			contentString = contentString.replace("@dabryceisright","Bryce Remsburg");
-			contentString = contentString.replace("! @dailysplace","at Daily's Place!");
+			contentString = contentString.replace("! @dailysplace"," at Daily's Place!");
 			contentString = contentString.replace("@dailysplace","Daily's Place");
 			contentString = contentString.replace("@DarbyAllin","Darby Allin");
 			contentString = contentString.replace("@DARBYALLIN","DARBY ALLIN");

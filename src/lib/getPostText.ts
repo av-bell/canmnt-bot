@@ -142,6 +142,7 @@ export default async function getPostText()
         	|| contentString.includes("@dunkzilladavis")
         	|| contentString.includes("@dustinrhodes")
         	|| contentString.includes("@EmiSakura_gtmv")
+			|| contentString.includes("@EverBankStadium")
         	|| contentString.includes("@EvilUno")
         	|| contentString.includes("@facdaniels")
         	|| contentString.includes("@fightbobby")
@@ -342,6 +343,7 @@ export default async function getPostText()
 			contentString = contentString.replace("@CMLL_OFICIAL","CMLL");
 			contentString = contentString.replace("@coltengunn","Colten Gunn");
 			contentString = contentString.replace("@dabryceisright","Bryce Remsburg");
+			contentString = contentString.replace("! @dailysplace","at Daily's Place!");
 			contentString = contentString.replace("@dailysplace","Daily's Place");
 			contentString = contentString.replace("@DarbyAllin","Darby Allin");
 			contentString = contentString.replace("@DARBYALLIN","DARBY ALLIN");
@@ -353,6 +355,7 @@ export default async function getPostText()
 			contentString = contentString.replace("@dunkzilladavis","Mark Davis");
 			contentString = contentString.replace("@dustinrhodes","Dustin Rhodes");
 			contentString = contentString.replace("@EmiSakura_gtmv","Emi Sakura");
+			contentString = contentString.replace("@EverBankStadium","EverBank Stadium");
 			contentString = contentString.replace("@EvilUno","Evil Uno");
 			contentString = contentString.replace("@facdaniels","Christopher Daniels");
 			contentString = contentString.replace("@fightbobby","Bobby Lashley");

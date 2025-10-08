@@ -182,6 +182,7 @@ export default async function getPostText()
         	|| contentString.includes("@MeganBayne")  
         	|| contentString.includes("@MercedesVarnado")
         	|| contentString.includes("@MinaShirakawa")
+			|| contentString.includes("@MichaelNakazawa")
         	|| contentString.includes("@MotherAEW")  
         	|| contentString.includes("@orangecassidy")
         	|| contentString.includes("@Ortiz_Powerful")
@@ -397,6 +398,7 @@ export default async function getPostText()
 			contentString = contentString.replace("@MeganBayne","Megan Bayne");
 			contentString = contentString.replace("@MercedesVarnado","Mercedes Moné");
 			contentString = contentString.replace("@MinaShirakawa","Mina Shirakawa");
+			contentString = contentString.replace("@MichaelNakazawa","Michael Nakazawa");
 			contentString = contentString.replace("@MotherAEW","Mother Wayne");
 			contentString = contentString.replace("@orangecassidy","Orange Cassidy");
 			contentString = contentString.replace("@Ortiz_Powerful","Ortiz");

@@ -129,6 +129,7 @@ export default async function getPostText()
          	|| contentString.includes("@Christian4Peeps")  
         	|| contentString.includes("@ClaudioCSRO")
         	|| contentString.includes("@CMLL_OFICIAL")  
+			|| contentString.includes("@CNN")  
         	|| contentString.includes("@coltengunn")
         	|| contentString.includes("@dabryceisright")
 			|| contentString.includes("@dailysplace")
@@ -348,6 +349,7 @@ export default async function getPostText()
 			contentString = contentString.replace("@Christian4Peeps","Christian Cage");
 			contentString = contentString.replace("@ClaudioCSRO","Claudio Castagnoli");
 			contentString = contentString.replace("@CMLL_OFICIAL","CMLL");
+			contentString = contentString.replace("@CNN","CNN");
 			contentString = contentString.replace("@coltengunn","Colten Gunn");
 			contentString = contentString.replace("@dabryceisright","Bryce Remsburg");
 			contentString = contentString.replace("! @dailysplace"," at Daily's Place!");

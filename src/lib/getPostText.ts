@@ -142,6 +142,7 @@ export default async function getPostText()
         	|| contentString.includes("@DiamanteLAX")
         	|| contentString.includes("@DRALISTICO_LFI")
         	|| contentString.includes("@dunkzilladavis")
+			|| contentString.includes("@DUNKZILLAdavis")
         	|| contentString.includes("@dustinrhodes")
         	|| contentString.includes("@EmiSakura_gtmv")
 			|| contentString.includes("@EverBankStadium")
@@ -365,6 +366,7 @@ export default async function getPostText()
 			contentString = contentString.replace("@DiamanteLAX","Diamante");
 			contentString = contentString.replace("@DRALISTICO_LFI","Dralístico");
 			contentString = contentString.replace("@dunkzilladavis","Mark Davis");
+			contentString = contentString.replace("@DUNKZILLAdavis","Mark Davis");
 			contentString = contentString.replace("@dustinrhodes","Dustin Rhodes");
 			contentString = contentString.replace("@EmiSakura_gtmv","Emi Sakura");
 			contentString = contentString.replace("@EverBankStadium","EverBank Stadium");
@@ -513,6 +515,7 @@ export default async function getPostText()
 			contentString = contentString.replace("@zacksabrejr","Zack Sabre Jr.");
 			contentString = contentString.replace("@njpwworld","NJPW World");
 			contentString = contentString.replace("@WillWashington","Will Washington");
+			contentString = contentString.replace("@callmekris Stat","Kris Statlander")
 			contentString = contentString.replace(".Blake Christian","Blake Christian");
 			contentString = contentString.replace(".Hechicero","Hechicero");
 			contentString = contentString.replace(".HOOK","HOOK");

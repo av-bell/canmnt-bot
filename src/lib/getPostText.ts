@@ -142,7 +142,7 @@ export default async function getPostText()
         	|| contentString.includes("@DiamanteLAX")
         	|| contentString.includes("@DRALISTICO_LFI")
         	|| contentString.includes("@dunkzilladavis")
-			|| contentString.includes("@DUNKZILLAdavis")
+			|| contentString.includes("@DUNKZILLADavis")
         	|| contentString.includes("@dustinrhodes")
         	|| contentString.includes("@EmiSakura_gtmv")
 			|| contentString.includes("@EverBankStadium")
@@ -366,7 +366,7 @@ export default async function getPostText()
 			contentString = contentString.replace("@DiamanteLAX","Diamante");
 			contentString = contentString.replace("@DRALISTICO_LFI","Dralístico");
 			contentString = contentString.replace("@dunkzilladavis","Mark Davis");
-			contentString = contentString.replace("@DUNKZILLAdavis","Mark Davis");
+			contentString = contentString.replace("@DUNKZILLADavis","Mark Davis");
 			contentString = contentString.replace("@dustinrhodes","Dustin Rhodes");
 			contentString = contentString.replace("@EmiSakura_gtmv","Emi Sakura");
 			contentString = contentString.replace("@EverBankStadium","EverBank Stadium");

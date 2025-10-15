@@ -344,6 +344,8 @@ export default async function getPostText()
 			contentString = contentString.replace("@BrodyXKing","Brody King");
 			contentString = contentString.replace("@bryandanielson","Bryan Danielson");
 			contentString = contentString.replace("@BryanDanielson","Bryan Danielson");
+			contentString = contentString.replace("@callmekris@twitter.com Stat","Kris Statlander");
+			contentString = contentString.replace("@callmekris Stat","Kris Statlander");
 			contentString = contentString.replace("@callmekrisstat","Kris Statlander");
 			contentString = contentString.replace("@CallMeKrisStat","Kris Statlander");
 			contentString = contentString.replace("@carliebravo","Carlie Bravo");

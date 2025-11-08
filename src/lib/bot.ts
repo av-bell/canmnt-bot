@@ -80,7 +80,7 @@ export default class Bot
     text: string | (Partial<AppBskyFeedPost.Record> & Omit<AppBskyFeedPost.Record, "createdAt">)
   ): Promise<void> {
 
-    var postNum = 12; // Specify the number of recent posts to compare from the logged in user's feed.
+    var postNum = 17; // Specify the number of recent posts to compare from the logged in user's feed.
     var bskyFeedAwait = await this.userAgent.app.bsky.feed.getAuthorFeed({actor: "aewbot.bsky.social", limit: postNum,}); // Get a defined number + 2 of most recent posts from the logged in user's feed.
     var bskyFeed = bskyFeedAwait["data"]["feed"]; // Filter down the await values so we are only looking at the feeds.
     for (let i = 0; i < bskyFeed.length; i++) // Consider all collected posts.
@@ -215,7 +215,7 @@ export default class Bot
         }
       }
 
-      var postNum = 12; // Specify the number of recent posts to compare from the logged in user's feed.
+      var postNum = 17; // Specify the number of recent posts to compare from the logged in user's feed.
       var bskyFeedAwait = await this.userAgent.app.bsky.feed.getAuthorFeed({actor: "aewbot.bsky.social", limit: postNum,}); // Get a defined number + 2 of most recent posts from the logged in user's feed.
       var bskyFeed = bskyFeedAwait["data"]["feed"]; // Filter down the await values so we are only looking at the feeds.
       var bskyFeed0 = bskyFeed[0]; // Select post 0, the most recent post made by this user.

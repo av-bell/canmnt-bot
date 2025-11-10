@@ -718,7 +718,6 @@ export default async function getPostText()
 			contentString = contentString.replace("Happy Birthday! Marshall Von Eric","Happy Birthday Marshall Von Eric! 🎁");
 
 			
-			Happy Birthday! @MarshallVonEric
 
 			
 		}

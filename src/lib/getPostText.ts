@@ -96,6 +96,7 @@ export default async function getPostText()
 			|| contentString.includes("@Adam_Priest_")
         	|| contentString.includes("@AEWHologram")
         	|| contentString.includes("@ajbefumo")
+			|| contentString.includes("@TheHypeManAlex")
         	|| contentString.includes("@Amisylle")
         	|| contentString.includes("@AndradeElIdolo")
         	|| contentString.includes("@Angelico_AEW")
@@ -132,6 +133,7 @@ export default async function getPostText()
         	|| contentString.includes("@CashWheelerFTR")
 			|| contentString.includes("@CDArenaKC")
          	|| contentString.includes("@Christian4Peeps")  
+			|| contentString.includes("@Chicago_Wolves")  
         	|| contentString.includes("@ClaudioCSRO")
         	|| contentString.includes("@CMLL_OFICIAL")  
 			|| contentString.includes("@CNN")  
@@ -294,6 +296,7 @@ export default async function getPostText()
         	|| contentString.includes("@YoungBucks")
 			|| contentString.includes("@thetayavalkyrie")
 		    || contentString.includes("@TheRealMorrison")
+			|| contentString.includes("@GravityLuchador")
 		    || contentString.includes("@GREATBLACKOTAKU")
 		    || contentString.includes("@suavemansoor")
 			|| contentString.includes("@zacksabrejr")
@@ -323,6 +326,7 @@ export default async function getPostText()
 			contentString = contentString.replace("@Adam_Priest_","Adam Priest");
 			contentString = contentString.replace("@AEWHologram","Hologram");
 			contentString = contentString.replace("@ajbefumo","Big Boom AJ");
+			contentString = contentString.replace("@TheHypeManAlex","Alex Abrahantes");
 			contentString = contentString.replace("@amisylle","Queen Aminata");
 			contentString = contentString.replace("@Amisylle","Queen Aminata");
 			contentString = contentString.replace("@AndradeElIdolo","Andrade");
@@ -361,6 +365,7 @@ export default async function getPostText()
 			contentString = contentString.replace("@CashWheelerFTR","Cash Wheeler");
 			contentString = contentString.replace("@CDArenaKC","Cable Dahmer Arena");
 			contentString = contentString.replace("@Christian4Peeps","Christian Cage");
+			contentString = contentString.replace("@Chicago_Wolves","Chicago Wolves");
 			contentString = contentString.replace("@ClaudioCSRO","Claudio Castagnoli");
 			contentString = contentString.replace("@CMLL_OFICIAL","CMLL");
 			contentString = contentString.replace("@CNN","CNN");
@@ -522,6 +527,7 @@ export default async function getPostText()
 			contentString = contentString.replace("@thetayavalkyrie","Taya Valkyrie");
 			contentString = contentString.replace("@TheRealMorrison","Johnny TV");
 			contentString = contentString.replace("@GREATBLACKOTAKU","Mason Madden");
+			contentString = contentString.replace("@GravityLuchador","Gravity");
 			contentString = contentString.replace("@suavemansoor","Mansoor");
 			contentString = contentString.replace("@zacksabrejr","Zack Sabre Jr.");
 			contentString = contentString.replace("@njpwworld","NJPW World");
@@ -704,6 +710,9 @@ export default async function getPostText()
 			contentString = contentString.replace("Happy Birthday! Wheeler Yuta 🎁","Happy Birthday Wheeler Yuta! 🎁");
 			contentString = contentString.replace("Happy Birthday! Tony Schiavone","Happy Birthday Tony Schiavone! 🎁");
 			contentString = contentString.replace("Happy Birthday! Michael Nakazawa 🎁","Happy Birthday Michael Nakazawa! 🎁");
+			contentString = contentString.replace("Happy Birthday! Alex Windsor","Happy Birthday Alex Windsor! 🎁");
+			contentString = contentString.replace("Happy Birthday! Alex Abrahantes","Happy Birthday Alex Abrahantes! 🎁");
+			contentString = contentString.replace("Happy Birthday! Chris Jericho","Happy Birthday Chris Jericho! 🎁");
 
 			
 		}

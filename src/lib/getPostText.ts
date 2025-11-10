@@ -77,7 +77,7 @@ export default async function getPostText()
 		contentString = contentString.slice(1,-1); // Remove the quotation marks.
 		contentString = contentString.replace(twitterReg, "").replace(waltRuffReg, "notwaltruff.bsky.social").replace(sportsBotsReg, "").replace(logoReg, "").replace(quoteReg, `"`).replace(andReg, "&").replace(pReg, "\n\n").replace(brReg, "\n").replace(tagReg, ""); //Use the ", &, <p>, and <br> regexes to apply appropriate formatting. Then use the general regex to remove the HTML formatting from the mastodon post. 
 
-		if (contentString.includes("@Kamille_brick") || contentString.includes("@GraemeNichols"))
+		if (contentString.includes("@Kamille_brick") || contentString.includes("@GraemeNichols") || contentString.includes("@RicFlairNatrBoy")
 		{
 			contentString = "";
 		}

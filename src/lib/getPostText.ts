@@ -705,7 +705,7 @@ export default async function getPostText()
 			contentString = contentString.replace("Happy Birthday! @JayWhiteNZ 🎁","Happy Birthday Jay White! 🎁");
 			contentString = contentString.replace("Happy Birthday! Jay White 🎁","Happy Birthday Jay White! 🎁");
 			contentString = contentString.replace("Happy Birthday! MVP 🎁","Happy Birthday MVP! 🎁");
-			contentString = contentString.replace("Happy Birthday! Lio Rush 🎁","Happy Birthday Lio Rush! 🎁");
+			contentString = contentString.replace("Happy Birthday! Lio Rush","Happy Birthday Lio Rush! 🎁");
 			contentString = contentString.replace("Happy Birthday! Kazuchika Okada","Happy Birthday Kazuchika Okada! 🎁");
 			contentString = contentString.replace("Happy Birthday! Julia Hart","Happy Birthday Julia Hart! 🎁");
 			contentString = contentString.replace("Happy Birthday! Keith Lee","Happy Birthday Keith Lee! 🎁");

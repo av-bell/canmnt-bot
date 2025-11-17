@@ -549,7 +549,7 @@ export default async function getPostText()
 			contentString = contentString.replace("Hammerstein Ballroom @ManhattanCenter","Hammerstein Ballroom");
 			contentString = contentString.replace("@BOKCenter","BOK Center");
 			contentString = contentString.replace("@Thee_Red_Velvet","Red Velvet");
-			contentString = contentString.replace("The @Walking_Weapon Josh Alexander","The Walking Weapon");
+			contentString = contentString.replace("The Josh Alexander Josh Alexander","The Walking Weapon");
 			contentString = contentString.replace("@RossVonErich","Ross Von Erich");
 			contentString = contentString.replace("@MarshallVonEric","Marshall Von Eric");
 			contentString = contentString.replace("@_thehyan","Hyan");

@@ -782,6 +782,7 @@ export default async function getPostText()
 			contentString = contentString.replace("Happy Birthday! Mercedes Martinez","Happy Birthday Mercedes Martinez! 🎁");
 			contentString = contentString.replace("Happy Birthday! Katsuyori Shibata","Happy Birthday Katsuyori Shibata! 🎁");
 			contentString = contentString.replace("Happy Birthday! Anthony Ogogo","Happy Birthday Anthony Ogogo! 🎁");
+			contentString = contentString.replace("Happy Birthday! Christian Cage","Happy Birthday Christian Cage! 🎁");
 
 
 			

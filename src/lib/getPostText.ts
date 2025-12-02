@@ -193,6 +193,7 @@ export default async function getPostText()
 			|| contentString.includes("@MarshallVonEric")
         	|| contentString.includes("@MascaraDoradMD")
         	|| contentString.includes("@McGuinnessNigel")
+        	|| contentString.includes("@McGuinnesNigel")
         	|| contentString.includes("@meganbayne")  
         	|| contentString.includes("@MeganBayne")  
         	|| contentString.includes("@MercedesVarnado")
@@ -553,6 +554,7 @@ export default async function getPostText()
 			contentString = contentString.replace("@Xbox","Xbox");
 			contentString = contentString.replace("@Xbox","Xbox");
 			contentString = contentString.replace("@xbox","Xbox");
+			contentString = contentString.replace("@McGuinnesNigel","Nigel McGuinness");
 			contentString = contentString.replace("@Da_Rizzler419","The Rizzler");
 			contentString = contentString.replace("@StokelyHathaway","Stokely");
 			contentString = contentString.replace("@EsportsStadium","Esports Stadium");

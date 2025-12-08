@@ -795,9 +795,8 @@ export default async function getPostText()
 			contentString = contentString.replace("Happy Birthday! Katsuyori Shibata","Happy Birthday Katsuyori Shibata! 🎁");
 			contentString = contentString.replace("Happy Birthday! Anthony Ogogo","Happy Birthday Anthony Ogogo! 🎁");
 			contentString = contentString.replace("Happy Birthday! Christian Cage","Happy Birthday Christian Cage! 🎁");
-
-
-			
+			contentString = contentString.replace("Happy Birthday! Jon Moxley","Happy Birthday Jon Moxley! 🎁");
+			contentString = contentString.replace("Happy Birthday! Daddy Magic","Happy Birthday Daddy Magic! 🎁");
 		}
 		
 		if (objJSON[i]["card"] != null)

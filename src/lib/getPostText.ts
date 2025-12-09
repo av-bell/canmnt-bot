@@ -336,6 +336,7 @@ export default async function getPostText()
 			|| contentString.includes("@TheCoopLive")
 			|| contentString.includes("@TheRoot")
 			|| contentString.includes("@GayleKing")
+			|| contentString.includes("@goldenglobes")
 			|| contentString.includes("Happy Birthday!")
 		    || contentString.includes("Happy Birthday! @DariusMartin612")
 			|| contentString.includes("Happy Birthday! @SNM_Buddy")
@@ -601,6 +602,7 @@ export default async function getPostText()
 			contentString = contentString.replace("@TheCoopLive","Co-op Live");
 			contentString = contentString.replace("@TheRoot","The Root");
 			contentString = contentString.replace("@GayleKing","Gayle King");
+			contentString = contentString.replace("@goldenglobes","Golden Globes");
 			contentString = contentString.replace(".Paul Wight","Paul Wight")
 			contentString = contentString.replace(".Místico","Místico");
 			contentString = contentString.replace(".Blake Christian","Blake Christian");
@@ -800,6 +802,9 @@ export default async function getPostText()
 			contentString = contentString.replace("Happy Birthday! Jon Moxley","Happy Birthday Jon Moxley! 🎁");
 			contentString = contentString.replace("Happy Birthday! Daddy Magic","Happy Birthday Daddy Magic! 🎁");
 			contentString = contentString.replace("Happy Birthday! Billie Starkz","Happy Birthday Billie Starkz! 🎁");
+			contentString = contentString.replace("Happy Birthday! Carlie Bravo","Happy Birthday Carlie Bravo! 🎁");
+
+			
 		}
 		
 		if (objJSON[i]["card"] != null)

@@ -99,6 +99,7 @@ export default async function getPostText()
         	|| contentString.includes("@ajbefumo")
 			|| contentString.includes("@TheHypeManAlex")
         	|| contentString.includes("@Amisylle")
+			|| contentString.includes("@andycomplains")
         	|| contentString.includes("@AndradeElIdolo")
         	|| contentString.includes("@Angelico_AEW")
         	|| contentString.includes("@annajay___")
@@ -605,6 +606,7 @@ export default async function getPostText()
 			contentString = contentString.replace("@GayleKing","Gayle King");
 			contentString = contentString.replace("@goldenglobes","Golden Globes");
 			contentString = contentString.replace("@hellosatnam","Satnam Singh");
+			contentString = contentString.replace("@andycomplains","The Butcher");
 			contentString = contentString.replace(".Paul Wight","Paul Wight")
 			contentString = contentString.replace(".Místico","Místico");
 			contentString = contentString.replace(".Blake Christian","Blake Christian");
@@ -806,7 +808,8 @@ export default async function getPostText()
 			contentString = contentString.replace("Happy Birthday! Billie Starkz","Happy Birthday Billie Starkz! 🎁");
 			contentString = contentString.replace("Happy Birthday! Carlie Bravo","Happy Birthday Carlie Bravo! 🎁");
 			contentString = contentString.replace("Happy Birthday! Satnam Singh","Happy Birthday Satnam Singh! 🎁");
-
+			contentString = contentString.replace("Happy Birthday! The Butcher","Happy Birthday to The Butcher! 🎁");
+			contentString = contentString.replace("Happy Birthday! Hologram","Happy Birthday Hologram! 🎁");
 			
 			
 		}

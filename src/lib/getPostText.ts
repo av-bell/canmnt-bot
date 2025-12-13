@@ -810,6 +810,7 @@ export default async function getPostText()
 			contentString = contentString.replace("Happy Birthday! Satnam Singh","Happy Birthday Satnam Singh! 🎁");
 			contentString = contentString.replace("Happy Birthday! The Butcher","Happy Birthday to The Butcher! 🎁");
 			contentString = contentString.replace("Happy Birthday! AEWHologram","Happy Birthday Hologram! 🎁");
+			contentString = contentString.replace("Happy Birthday! Lee Johnson","Happy Birthday Lee Johnson! 🎁");
 			
 			
 		}

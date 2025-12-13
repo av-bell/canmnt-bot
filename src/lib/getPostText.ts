@@ -809,7 +809,7 @@ export default async function getPostText()
 			contentString = contentString.replace("Happy Birthday! Carlie Bravo","Happy Birthday Carlie Bravo! 🎁");
 			contentString = contentString.replace("Happy Birthday! Satnam Singh","Happy Birthday Satnam Singh! 🎁");
 			contentString = contentString.replace("Happy Birthday! The Butcher","Happy Birthday to The Butcher! 🎁");
-			contentString = contentString.replace("Happy Birthday! Hologram","Happy Birthday Hologram! 🎁");
+			contentString = contentString.replace("Happy Birthday! AEWHologram","Happy Birthday Hologram! 🎁");
 			
 			
 		}

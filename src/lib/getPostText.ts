@@ -346,8 +346,6 @@ export default async function getPostText()
 			|| contentString.includes("@GabeKidd0115")
 			|| contentString.includes("@itsMaYAWorld")
 			|| contentString.includes("@BellsBrewery")
-
-			@
 			|| contentString.includes("Happy Birthday!")
 		    || contentString.includes("Happy Birthday! @DariusMartin612")
 			|| contentString.includes("Happy Birthday! @SNM_Buddy")

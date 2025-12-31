@@ -77,7 +77,7 @@ export default async function getPostText()
 		contentString = contentString.slice(1,-1); // Remove the quotation marks.
 		contentString = contentString.replace(twitterReg, "").replace(waltRuffReg, "notwaltruff.bsky.social").replace(sportsBotsReg, "").replace(logoReg, "").replace(quoteReg, `"`).replace(andReg, "&").replace(pReg, "\n\n").replace(brReg, "\n").replace(tagReg, ""); //Use the ", &, <p>, and <br> regexes to apply appropriate formatting. Then use the general regex to remove the HTML formatting from the mastodon post. 
 
-		if (contentString.includes("@Kamille_brick") || contentString.includes("further accentuates") || contentString.includes("@RicFlairNatrBoy") || contentString.includes("@DraftKings"))
+		if (contentString.includes("@Kamille_brick") || contentString.includes("further accentuates") || contentString.includes("@RicFlairNatrBoy") || contentString.includes("better than you") || contentString.includes("AEW World Champion") || contentString.includes("MJF") || contentString.includes("@DraftKings"))
 		{
 			contentString = "";
 		}
@@ -233,6 +233,7 @@ export default async function getPostText()
         	|| contentString.includes("@Sareee_official")
         	|| contentString.includes("@SexyChuckieT")
         	|| contentString.includes("@Shane216Taylor")
+        	|| contentString.includes("@shane216taylor")
         	|| contentString.includes("@ShawnDean773")
         	|| contentString.includes("@SheltyB803")  
         	|| contentString.includes("@shidahikaru")
@@ -622,6 +623,7 @@ export default async function getPostText()
 			contentString = contentString.replace("@GabeKidd0115","Gabe Kidd");
 			contentString = contentString.replace("@itsMaYAWorld","Maya World");
 			contentString = contentString.replace("@BellsBrewery","Bell's Brewery");
+			contentString = contentString.replace("@shane216taylor","Shane Taylor");
 			contentString = contentString.replace(".Paul Wight","Paul Wight");
 			contentString = contentString.replace(".Místico","Místico");
 			contentString = contentString.replace(".Blake Christian","Blake Christian");
@@ -828,6 +830,7 @@ export default async function getPostText()
 			contentString = contentString.replace("Happy Birthday! Lee Johnson","Happy Birthday Lee Johnson! 🎁");
 			contentString = contentString.replace("Happy Birthday! Komander","Happy Birthday Komander! 🎁");
 			contentString = contentString.replace("Happy Birthday! Anthony Bowens","Happy Birthday Anthony Bowens! 🎁");
+			contentString = contentString.replace("Happy Birthday! Shane Taylor","Happy Birthday Shane Taylor! 🎁");
 
 			
 			

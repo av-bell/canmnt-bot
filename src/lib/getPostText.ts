@@ -326,6 +326,7 @@ export default async function getPostText()
 			|| contentString.includes("@MarshallVonEric")
 			|| contentString.includes("@_thehyan")
 			|| contentString.includes("@ltsMayaWorld")
+			|| contentString.includes("@MayaWorldd")
 			|| contentString.includes("@PruCenter")
 			|| contentString.includes("@NJDevils")
 			|| contentString.includes("@BookendsNJ")
@@ -370,6 +371,7 @@ export default async function getPostText()
 			contentString = contentString.replace("@Adam_Priest_","Adam Priest")
 			contentString = contentString.replace("@AEW","AEW");
 			contentString = contentString.replace("@AEWHologram","Hologram");
+			contentString = contentString.replace("AEWHologram","Hologram");
 			contentString = contentString.replace("@ajbefumo","Big Boom AJ");
 			contentString = contentString.replace("@TheHypeManAlex","Alex Abrahantes");
 			contentString = contentString.replace("@amisylle","Queen Aminata");
@@ -589,6 +591,7 @@ export default async function getPostText()
 			contentString = contentString.replace("@_thehyan","Hyan");
 			contentString = contentString.replace("@BookendsNJ","Bookends");
 			contentString = contentString.replace("@ltsMayaWorld","Maya World");
+			contentString = contentString.replace("@MayaWorldd","Maya World");
 			contentString = contentString.replace("@PruCenter","Prudential Center");
 			contentString = contentString.replace("@NJDevils","New Jersey Devils");
 			contentString = contentString.replace("Claudio Castagnoli Prudential Center New Jersey Devils","");
@@ -831,6 +834,7 @@ export default async function getPostText()
 			contentString = contentString.replace("Happy Birthday! Komander","Happy Birthday Komander! 🎁");
 			contentString = contentString.replace("Happy Birthday! Anthony Bowens","Happy Birthday Anthony Bowens! 🎁");
 			contentString = contentString.replace("Happy Birthday! Shane Taylor","Happy Birthday Shane Taylor! 🎁");
+			contentString = contentString.replace("Happy Birthday! Kevin Knight","Happy Birthday Kevin Knight! 🎁");
 
 			
 			

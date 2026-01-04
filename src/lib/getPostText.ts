@@ -190,6 +190,7 @@ export default async function getPostText()
         	|| contentString.includes("@KyleFletcherPro")  
         	|| contentString.includes("@LanceHoyt")
         	|| contentString.includes("@Lucha_Angel1")
+			|| contentString.includes("@lucha_angel1")
         	|| contentString.includes("@luchasaurus")
 			|| contentString.includes("@MandaLHuber")
         	|| contentString.includes("@MarinaShafir")
@@ -348,6 +349,7 @@ export default async function getPostText()
 			|| contentString.includes("@GabeKidd0115")
 			|| contentString.includes("@itsMaYAWorld")
 			|| contentString.includes("@BellsBrewery")
+			|| contentString.includes("@PowerHouseHobbs")
 			|| contentString.includes("Happy Birthday!")
 		    || contentString.includes("Happy Birthday! @DariusMartin612")
 			|| contentString.includes("Happy Birthday! @SNM_Buddy")
@@ -466,6 +468,7 @@ export default async function getPostText()
 			contentString = contentString.replace("@KyleFletcherPro","Kyle Fletcher");
 			contentString = contentString.replace("@LanceHoyt","Lance Archer");
 			contentString = contentString.replace("@Lucha_Angel1","Dante Martin");
+			contentString = contentString.replace("@lucha_angel1","Dante Martin");
 			contentString = contentString.replace("@luchasaurus","Luchasaurus");
 			contentString = contentString.replace("@MandaLHuber","Amanda Huber");
 			contentString = contentString.replace("@MarinaShafir","Marina Shafir");
@@ -564,6 +567,7 @@ export default async function getPostText()
 			contentString = contentString.replace("@Trentylocks","Trent Beretta");
 			contentString = contentString.replace("@Triller_TV","Triller");
 			contentString = contentString.replace("@TrueWillieHobbs","Powerhouse Hobbs");
+			contentString = contentString.replace("@PowerHouseHobbs","Powerhouse Hobbs");
 			contentString = contentString.replace("@TruthMagnum","Truth Magnum");
 			contentString = contentString.replace("@turbofloyd_","Turbo Floyd");
 			contentString = contentString.replace("@Walking_Weapon","Josh Alexander");
@@ -836,6 +840,11 @@ export default async function getPostText()
 			contentString = contentString.replace("Happy Birthday! Shane Taylor","Happy Birthday Shane Taylor! 🎁");
 			contentString = contentString.replace("Happy Birthday! Kevin Knight","Happy Birthday Kevin Knight! 🎁");
 			contentString = contentString.replace("Happy Birthday! Jim Ross","Happy Birthday Jim Ross! 🎁");
+			contentString = contentString.replace("Happy Birthday! Harley Cameron","Happy Birthday Harley Cameron! 🎁");
+			contentString = contentString.replace("Happy Birthday! Bryce Remsburg","Happy Birthday Bryce Remsburg! 🎁");
+
+
+			
 
 			
 			

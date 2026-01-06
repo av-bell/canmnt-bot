@@ -99,6 +99,7 @@ export default async function getPostText()
         	|| contentString.includes("@ajbefumo")
 			|| contentString.includes("@TheHypeManAlex")
         	|| contentString.includes("@Amisylle")
+        	|| contentString.includes("@AliciaAtout")
 			|| contentString.includes("@andycomplains")
         	|| contentString.includes("@AndradeElIdolo")
         	|| contentString.includes("@Angelico_AEW")
@@ -204,6 +205,7 @@ export default async function getPostText()
         	|| contentString.includes("@MinaShirakawa")
 			|| contentString.includes("@MichaelNakazawa")
         	|| contentString.includes("@MotherAEW")  
+        	|| contentString.includes("@NylaRoseBeast")  
         	|| contentString.includes("@orangecassidy")
         	|| contentString.includes("@Ortiz_Powerful")
         	|| contentString.includes("@PlatinumMax")
@@ -372,10 +374,12 @@ export default async function getPostText()
 			contentString = contentString.replace("@adam_priest","Adam Priest");
 			contentString = contentString.replace("@Adam_Priest_","Adam Priest")
 			contentString = contentString.replace("@AEW","AEW");
+			contentString = contentString.replace("@NylaRoseBeast","Nyla Rose");
 			contentString = contentString.replace("@AEWHologram","Hologram");
 			contentString = contentString.replace("AEWHologram","Hologram");
 			contentString = contentString.replace("@ajbefumo","Big Boom AJ");
 			contentString = contentString.replace("@TheHypeManAlex","Alex Abrahantes");
+			contentString = contentString.replace("@AliciaAtout","Alicia Atout");
 			contentString = contentString.replace("@amisylle","Queen Aminata");
 			contentString = contentString.replace("@Amisylle","Queen Aminata");
 			contentString = contentString.replace("@AndradeElIdolo","Andrade");
@@ -842,6 +846,7 @@ export default async function getPostText()
 			contentString = contentString.replace("Happy Birthday! Jim Ross","Happy Birthday Jim Ross! 🎁");
 			contentString = contentString.replace("Happy Birthday! Harley Cameron","Happy Birthday Harley Cameron! 🎁");
 			contentString = contentString.replace("Happy Birthday! Bryce Remsburg","Happy Birthday Bryce Remsburg! 🎁");
+			contentString = contentString.replace("Happy Birthday! Alicia Atout","Happy Birthday Alicia Atout! 🎁");
 
 
 			

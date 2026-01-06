@@ -304,6 +304,7 @@ export default async function getPostText()
         	|| contentString.includes("@WillowWrestles") 
 			|| contentString.includes("@Xbox")
 			|| contentString.includes("@xbox") 
+			|| contentString.includes("@RealWardlow") 
 			|| contentString.includes("@StokelyHathaway") 
         	|| contentString.includes("@youngbucks")
         	|| contentString.includes("@YoungBucks")
@@ -629,6 +630,7 @@ export default async function getPostText()
 			contentString = contentString.replace("@TheCoopLive","Co-op Live");
 			contentString = contentString.replace("@storidenali","Stori Denali");
 			contentString = contentString.replace("@RogersArena","Rogers Arena");
+			contentString = contentString.replace("@RealWardlow","Wardlow");
 			contentString = contentString.replace("@MyVancouver","Destination Vancouver");
 			contentString = contentString.replace("@theprovince","The Province");
 			contentString = contentString.replace("@GabeKidd0115","Gabe Kidd");
@@ -795,6 +797,7 @@ export default async function getPostText()
 			contentString = contentString.replace(".Ross Von Erich","Ross Von Erich");
 			contentString = contentString.replace(".Marshall Von Eric","Marshall Von Eric");
 			contentString = contentString.replace(".Hyan","Hyan");
+			contentString = contentString.replace(".Wardlow","Wardlow");
 			contentString = contentString.replace(".QT Marshall","QT Marshall");
 			contentString = contentString.replace(".Maya World","Maya World");
 			contentString = contentString.replace("Happy Birthday! @rushtoroblanco","Happy Birthday RUSH!");
@@ -847,9 +850,26 @@ export default async function getPostText()
 			contentString = contentString.replace("Happy Birthday! Harley Cameron","Happy Birthday Harley Cameron! 🎁");
 			contentString = contentString.replace("Happy Birthday! Bryce Remsburg","Happy Birthday Bryce Remsburg! 🎁");
 			contentString = contentString.replace("Happy Birthday! Alicia Atout","Happy Birthday Alicia Atout! 🎁");
+			contentString = contentString.replace("Happy Birthday! Darby Allin","Happy Birthday Darby Allin! 🎁");
+			contentString = contentString.replace("Happy Birthday! Ruby Soho","Happy Birthday Ruby Soho! 🎁");
+			contentString = contentString.replace("Happy Birthday! Ian Riccaboni","Happy Birthday Ian Riccaboni! 🎁");
+			contentString = contentString.replace("Happy Birthday! Preston Vance","Happy Birthday Preston Vance! 🎁");
+			contentString = contentString.replace("Happy Birthday! Mark Briscoe","Happy Birthday Mark Briscoe! 🎁");
+			contentString = contentString.replace("Happy Birthday! Wardlow","Happy Birthday Wardlow! 🎁");
+			contentString = contentString.replace("Happy Birthday! Powerhouse Hobbs","Happy Birthday Powerhouse Hobbs! 🎁");
+			contentString = contentString.replace("Happy Birthday! Nigel McGuinness","Happy Birthday Nigel McGuinness! 🎁");
+			contentString = contentString.replace("Happy Birthday! Leila Grey","Happy Birthday Leila Grey! 🎁");
+			contentString = contentString.replace("Happy Birthday! Willow Nightingale","Happy Birthday Willow Nightingale! 🎁");
+			contentString = contentString.replace("Happy Birthday! JD Drake","Happy Birthday JD Drake! 🎁");
+			contentString = contentString.replace("Happy Birthday! Mercedes Moné","Happy Birthday Mercedes Moné! 🎁");
+			contentString = contentString.replace("Happy Birthday! Toa Liona","Happy Birthday Toa Liona! 🎁");
+			contentString = contentString.replace("Happy Birthday! Action Andretti","Happy Birthday Action Andretti! 🎁");
+			contentString = contentString.replace("Happy Birthday! Brian Cage","Happy Birthday Brian Cage! 🎁");
+			contentString = contentString.replace("Happy Birthday! Aaron Solo","Happy Birthday Aaron Solo! 🎁");
+			contentString = contentString.replace("Happy Birthday! Mason Madden","Happy Birthday Mason Madden! 🎁");
+			contentString = contentString.replace("Happy Birthday! Paul Wight","Happy Birthday Paul Wight! 🎁");
+			contentString = contentString.replace("Happy Birthday! Truth Magnum","Happy Birthday Truth Magnum! 🎁");
 
-
-			
 
 			
 			

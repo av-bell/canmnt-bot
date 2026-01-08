@@ -356,6 +356,7 @@ export default async function getPostText()
 			|| contentString.includes("@SInow")
 			|| contentString.includes("@Mariners")
 			|| contentString.includes("@MichaelPhelps")
+			|| contentString.includes("@tanahashi1_100")
 			|| contentString.includes("Happy Birthday!")
 		    || contentString.includes("Happy Birthday! @DariusMartin612")
 			|| contentString.includes("Happy Birthday! @SNM_Buddy")
@@ -637,12 +638,14 @@ export default async function getPostText()
 			contentString = contentString.replace("@storidenali","Stori Denali");
 			contentString = contentString.replace("@RogersArena","Rogers Arena");
 			contentString = contentString.replace("@RealWardlow","Wardlow");
+			contentString = contentString.replace("@tanahashi1_100","Hiroshi Tanahashi");
 			contentString = contentString.replace("@MyVancouver","Destination Vancouver");
 			contentString = contentString.replace("@theprovince","The Province");
 			contentString = contentString.replace("@GabeKidd0115","Gabe Kidd");
 			contentString = contentString.replace("@itsMaYAWorld","Maya World");
 			contentString = contentString.replace("@BellsBrewery","Bell's Brewery");
 			contentString = contentString.replace("@shane216taylor","Shane Taylor");
+			contentString = contentString.replace(".Hiroshi Tanahashi","Hiroshi Tanahashi");
 			contentString = contentString.replace(".Paul Wight","Paul Wight");
 			contentString = contentString.replace(".Místico","Místico");
 			contentString = contentString.replace(".Blake Christian","Blake Christian");

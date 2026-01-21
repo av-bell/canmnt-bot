@@ -362,6 +362,15 @@ export default async function getPostText()
 			|| contentString.includes("@VertVixen")
 			|| contentString.includes("@JakeSomething_")
 			|| contentString.includes("@RealLadyFrost")
+			|| contentString.includes("@ZackGibsonGYV")
+			|| contentString.includes("@KennyOmegaman")
+			|| contentString.includes("@ZaydaSteel")
+			|| contentString.includes("@Laceyy_Lane")
+			|| contentString.includes("@ZacharyWentz")
+			|| contentString.includes("@dezmondxavier")
+			|| contentString.includes("@TheBadReed")
+			|| contentString.includes("@ThePrizeCityOG")
+			|| contentString.includes("@TheJordanOIiver")
 			|| contentString.includes("Happy Birthday!")
 		    || contentString.includes("Happy Birthday! @DariusMartin612")
 			|| contentString.includes("Happy Birthday! @SNM_Buddy")
@@ -655,6 +664,23 @@ export default async function getPostText()
 			contentString = contentString.replace("@VertVixen","VertVixen");
 			contentString = contentString.replace("@JakeSomething_","Jake Doyle");
 			contentString = contentString.replace("@RealLadyFrost","Lady Frost");
+			contentString = contentString.replace("@ZackGibsonGYV","Zack Gibson");
+			contentString = contentString.replace("@KennyOmegaman","Kenny Omega");
+			contentString = contentString.replace("@ZaydaSteel","Zayda Steel");
+			contentString = contentString.replace("@Laceyy_Lane","Lacey Lane");
+			contentString = contentString.replace("@ZacharyWentz","Zachary Wentz");
+			contentString = contentString.replace("@dezmondxavier","Dezmond Xavier");
+			contentString = contentString.replace("@TheBadReed","Myron Reed");
+			contentString = contentString.replace("@ThePrizeCityOG","Alec Price");
+			contentString = contentString.replace("@TheJordanOIiver","Jordan Oliver");
+			contentString = contentString.replace(".Zack Gibson","Zack Gibson");
+			contentString = contentString.replace(".Zayda Steel","Zayda Steel");
+			contentString = contentString.replace(".Lacey Lane","Lacey Lane");
+			contentString = contentString.replace(".Zachary Wentz","Zachary Wentz");
+			contentString = contentString.replace(".Dezmond Xavier","Dezmond Xavier");
+			contentString = contentString.replace(".Myron Reed","Myron Reed");
+			contentString = contentString.replace(".Alec Price","Alec Price");
+			contentString = contentString.replace(".Jordan Oliver","Jordan Oliver");
 			contentString = contentString.replace(".Lady Frost","Lady Frost");
 			contentString = contentString.replace(".Jake Doyle","Jake Doyle");
 			contentString = contentString.replace(".VertVixen","VertVixen");

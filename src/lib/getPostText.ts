@@ -393,10 +393,6 @@ export default async function getPostText()
 			|| contentString.includes("@MrTommasoCiampa")
 			|| contentString.includes("@THEdavidfinlay")
 			|| contentString.includes("@THEdavidfinlay")
-
-
-
-			
 			|| contentString.includes("Happy Birthday!")
 		    || contentString.includes("Happy Birthday! @DariusMartin612")
 			|| contentString.includes("Happy Birthday! @SNM_Buddy")

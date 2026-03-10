@@ -323,6 +323,7 @@ export default async function getPostText()
 			|| contentString.includes("@EsportsStadium")
 			|| contentString.includes("@dallasnews")
 			|| contentString.includes("@griffgarrison")
+			|| contentString.includes("@griffgarrison1")
 			|| contentString.includes("@Pres10Vance")
 			|| contentString.includes("@RealMMartinez")
 			|| contentString.includes("@ManhattanCenter")
@@ -392,7 +393,7 @@ export default async function getPostText()
 			|| contentString.includes("@THEdavidfinlay")
 			|| contentString.includes("@MrTommasoCiampa")
 			|| contentString.includes("@THEdavidfinlay")
-			|| contentString.includes("@THEdavidfinlay")
+			|| contentString.includes("@CharRenegade_1")
 			|| contentString.includes("Happy Birthday!")
 		    || contentString.includes("Happy Birthday! @DariusMartin612")
 			|| contentString.includes("Happy Birthday! @SNM_Buddy")
@@ -635,6 +636,7 @@ export default async function getPostText()
 			contentString = contentString.replace("@EsportsStadium","Esports Stadium");
 			contentString = contentString.replace("@dallasnews","Dallas Morning News");
 			contentString = contentString.replace("@griffgarrison","Griff Garrison");
+			contentString = contentString.replace("@griffgarrison1","Griff Garrison");
 			contentString = contentString.replace("@Pres10Vance","Preston Vance");
 			contentString = contentString.replace("@RealMMartinez","Mercedes Martinez");
 			contentString = contentString.replace("Hammerstein Ballroom @ManhattanCenter","Hammerstein Ballroom");
@@ -715,6 +717,8 @@ export default async function getPostText()
 			contentString = contentString.replace("@CassieLee","Cassie Lee");
 			contentString = contentString.replace("@THEdavidfinlay","David Finlay");
 			contentString = contentString.replace("@MrTommasoCiampa","Tommaso Ciampa");
+			contentString = contentString.replace("@CharRenegade_1","Charlette Renegade");
+			contentString = contentString.replace(".Charlette Renegade","Charlette Renegade");
 			contentString = contentString.replace(".Tommaso Ciampa","Tommaso Ciampa");
 			contentString = contentString.replace(".David Finlay","David Finlay");
 			contentString = contentString.replace(".Jessie McKay","Jessie McKay");

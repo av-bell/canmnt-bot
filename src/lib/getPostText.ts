@@ -403,6 +403,7 @@ export default async function getPostText()
 			|| contentString.includes("@francescoakira")
 			|| contentString.includes("@HenareNZ")
 			|| contentString.includes("@amisylle")
+			|| contentString.includes("@Kamille_brick")
 			|| contentString.includes("Happy Birthday!")
 		    || contentString.includes("Happy Birthday! @DariusMartin612")
 			|| contentString.includes("Happy Birthday! @SNM_Buddy")
@@ -740,6 +741,8 @@ export default async function getPostText()
 			contentString = contentString.replace("@amisylle","Queen Aminata");
 			contentString = contentString.replace(".Queen Aminata","Queen Aminata");
 			contentString = contentString.replace(".Henare","Henare");
+			contentString = contentString.replace("@Kamille_brick","Kamille");
+			contentString = contentString.replace(".Kamille","Kamille");
 			contentString = contentString.replace(".Viva Van","Viva Van");
 			contentString = contentString.replace(".Matt Sydal","Matt Sydal");
 			contentString = contentString.replace(".Robbie Eagles","Robbie Eagles");

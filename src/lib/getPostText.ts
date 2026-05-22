@@ -410,11 +410,8 @@ export default async function getPostText()
 			|| contentString.includes("@RealMikeBennett")
 			|| contentString.includes("@hbomax")
 			|| contentString.includes("Happy Birthday!")
-		    || contentString.includes("Happy Birthday! @DariusMartin612")
-			|| contentString.includes("Happy Birthday! @SNM_Buddy")
-			|| contentString.includes("Happy Birthday! @Ortiz_Powerful")
-			|| contentString.includes("Happy Birthday! @Ariel_Levy")
-			|| contentString.includes("Happy Birthday! @rushtoroblanco")
+			|| contentString.includes("@VitaCoco")
+
 		
 		   )
 		{
@@ -741,17 +738,18 @@ export default async function getPostText()
 			contentString = contentString.replace("@CapriceColeman","Caprice Coleman");
 			contentString = contentString.replace("@HellBentVixen","Viva Van");
 			contentString = contentString.replace("@francescoakira","Francesco Akira");
-			contentString = contentString.replace(".Francesco Akira","Francesco Akira");
 			contentString = contentString.replace("@HenareNZ","Henare");
 			contentString = contentString.replace("@amisylle","Queen Aminata");
-			contentString = contentString.replace(".Queen Aminata","Queen Aminata");
-			contentString = contentString.replace(".Henare","Henare");
 			contentString = contentString.replace("@Kamille_brick","Kamille");
 			contentString = contentString.replace("@we_are_stardom","Stardom");
 			contentString = contentString.replace("@njpwglobal","NJPW");
 			contentString = contentString.replace("@hbomax","HBO Max");
 			contentString = contentString.replace("@AewClon","El Clon");
 			contentString = contentString.replace("@RealMikeBennett","Mike Bennett");
+			contentString = contentString.replace(", Fueled by @VitaCoco!","!");
+			contentString = contentString.replace(".Queen Aminata","Queen Aminata");
+			contentString = contentString.replace(".Francesco Akira","Francesco Akira");
+			contentString = contentString.replace(".Henare","Henare");
 			contentString = contentString.replace(".Mike Bennett","Mike Bennett");
 			contentString = contentString.replace(".El Clon","El Clon");
 			contentString = contentString.replace(".Kamille","Kamille");

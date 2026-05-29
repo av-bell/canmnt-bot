@@ -25,7 +25,7 @@ export default async function getPostText()
 	var tagReg = new RegExp("<(:?[^>]+)>", "g"); // A general regex for HTML. Used to get the plaintext value of the mastodon post without tag notation.
 	var invalidLinkReg = new RegExp("\\S*(\\.com|\\.ca|\\.org|\\.net)\\S*(…|\\.\\.\\.)", "g");
 
-	var awaitTweet = await mastodon.getStatuses("110730189043177174", {'limit':limitVal}); //Use the Mastodon API to get a specified number of recent posts from the Mastodon API.
+	var awaitTweet = await mastodon.getStatuses("113873729175749717", {'limit':limitVal}); //Use the Mastodon API to get a specified number of recent posts from the Mastodon API.
 	var string = JSON.stringify(awaitTweet); // Convert the post into a JSON string.
 	var objJSON = JSON.parse(string)["json"]; // Convert the JSON string back to a JSON object. Kinda silly, but it doesn't work otherwise. 
 	var stringArr = []; // Initialize an empty array that we will store the regexed plaintexts in.

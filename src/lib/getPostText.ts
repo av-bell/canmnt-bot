@@ -110,6 +110,8 @@ export default async function getPostText()
 			|| contentString.includes("Happy Birthday!")
         	|| contentString.includes("@GatoradeCanada")  
         	|| contentString.includes("@GE_Appliances") 
+        	|| contentString.includes("@GatoradeCanada") 
+
 
 		
 		   )
@@ -143,6 +145,10 @@ export default async function getPostText()
 			contentString = contentString.replace(", presented by @GE_Appliances","");
 			contentString = contentString.replace(", présentée par @GatoradeCanada","");
 			contentString = contentString.replace(", fuelled by @GatoradeCanada","");
+			contentString = contentString.replace("today’s @GatoradeCanada Performance","today’s Performance");
+
+						 
+
 			
 			
 		}

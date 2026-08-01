@@ -1,7 +1,7 @@
 name: "Post to Bluesky"
 on:
   schedule:
-    - cron: "0 9,2,22 * * *"
+    - cron: "*/30 9-23 * * *"
 jobs:
   build:
     runs-on: ubuntu-latest
